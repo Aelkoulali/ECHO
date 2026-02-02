@@ -1,2 +1,2 @@
-# 🗂️ Product Page
+# 🗂️ ECHO 👕
 ## ✅ Tailwind CSS Project
