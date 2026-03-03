@@ -1,3 +1,3 @@
 # 🗂️ ECHO 👕
-## ✅ T-Shirt Shop
+## ✅ E-Commerce Project
 ## ✅ Tailwinds CSS 
