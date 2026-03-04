@@ -1,3 +1,4 @@
 # 🗂️ ECHO 👕
-## ✅ T-Shirt Shop
-## ✅ Tailwinds CSS 
+## ✅ E-Commerce Project
+## ✅ JavaScript, HTML & Tailwinds CSS 
+## ✅ 
