@@ -655,38 +655,3 @@ video {
   }
 }
 
-/* The carousel container */
-.carousel-container {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-}
-
-/* Slide container for scrolling effect */
-.carousel-content {
-  display: flex;
-  animation: slide 9s infinite;
-}
-
-/* Slide content */
-.carousel-content > div {
-  flex-shrink: 0;
-  width: 100%;
-}
-
-/* Add animation to slide images */
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  33.33% {
-    transform: translateX(-100%);
-  }
-  66.66% {
-    transform: translateX(-200%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}

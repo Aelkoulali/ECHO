@@ -1,11 +1,23 @@
 // tailwind.config.js
 module.exports = {
   content: [
-    './src/**/*.{html,js,jsx,ts,tsx}',  // Adjust this path as needed to point to your files
-    './index.html',  // If you have an index.html file in the root, include it here
+    './src/**/*.{html,js,jsx,ts,tsx}',
+    './index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        slide: {
+          '0%': { transform: 'translateX(0%)' },
+          '33.33%': { transform: 'translateX(-33.33%)' },
+          '66.66%': { transform: 'translateX(-66.66%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+      },
+      animation: {
+        slide: 'slide 9s infinite',
+      },
+    },
   },
   plugins: [],
 };
