@@ -655,3 +655,18 @@ video {
   }
 }
 
+.carousel-content {
+  display: flex;
+  width: 300%;          /* Total slides × 100% */
+  animation: slide 9s infinite;
+}
+
+.carousel-content > div {
+  flex: 0 0 100%;       /* Each slide exactly 1 container width */
+}
+
+.carousel-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* Ensures full cover without gaps */
+}
