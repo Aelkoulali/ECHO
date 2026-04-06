@@ -26,9 +26,10 @@
     </header>
 
     <!-- Hero Section with Background Image -->
-    <section class="relative h-screen bg-[url('Images/About/Item1.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden">
-        <!-- Dark Overlay -->
-        <div class="absolute inset-0 bg-black/50"></div>
+    <section class="relative h-screen bg-[url('Images/About/Item1.jpg')] bg-cover bg-center bg-no-repeat min-h-screen" style="background-image: url('Images/About/Item1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <!-- No Overlay - Pure Image -->
+        <!-- Content -->
+        <div class="absolute inset-0 bg-gradient-to-b from-black/20 to-black/60 z-0"></div>
         <!-- Content -->
         <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
             <h1 class="text-5xl md:text-6xl font-bold mb-6 drop-shadow-2xl">Welcome to ECHO</h1>
