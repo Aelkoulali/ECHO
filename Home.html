@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECHO - Home</title>
+    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="bg-gray-100">
+    <!-- Navbar - same as about.html -->
+    <header>
+        <nav class="bg-black shadow p-4">
+            <div class="text-white text-2xl font-bold p-4 mx-auto max-w-7xl">ECHO</div>
+            <ul class="flex space-x-4 justify-center list-none p-0 m-0">
+                <li><a href="products.html" class="text-white hover:text-blue-500">Products</a></li>
+                <li><a href="about.html" class="text-white hover:text-blue-500">About</a></li>
+                <li><a href="contact.html" class="text-white hover:text-blue-500">Contact</a></li>
+                <li><a href="account.html"><i class="fa fa-user text-white hover:text-blue-500"></i></a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart text-white hover:text-blue-500"></i></a></li>
+                <input type="text" placeholder="Search..." class="ml-4 p-1 rounded bg-gray-800 text-white max-w-xs" style="width: 100%; max-width: 200px;" />
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Background Image -->
+    <section class="relative h-screen bg-[url('Images/About/Item1.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden">
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-black/50"></div>
+        <!-- Content -->
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 drop-shadow-2xl">Welcome to ECHO</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl drop-shadow-lg">Discover luxury fashion and premium products. Elevate your style today.</p>
+            <a href="products.html" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 drop-shadow-lg">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center p-4 mt-8">
+        &copy; 2026 ECHO - All rights reserved
+    </footer>
+</body>
+
+</html>
