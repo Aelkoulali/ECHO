@@ -1,9 +1,13 @@
-# ECHO Carousel Fix TODO
+# TODO: Fix Navbar Icons Visibility
 
-## Plan Breakdown
-1. [x] Create TODO.md ✅
-2. [x] Edit about.html: Add Tailwind classes to carousel parent and slides ✅
-3. [x] Rebuild CSS: `npm run dev` ✅
-4. [x] All styling feedback: margins, `w-11/12 max-w-4xl mx-auto` narrow, `h-screen/2` more image height ✅
-5. [ ] Optional: Update tailwind.config.js for purging, rebuild/test
-6. [ ] Mark complete
+## Steps:
+1. [x] Create TODO.md (done)
+2. [x] Read relevant files (Home.html, tailwind.config.js, script.js, src/styles.css)
+3. [x] Search for icon patterns across HTML files
+4. [x] Get user plan approval
+5. [x] Upgrade Font Awesome CDN to v6 in all HTML files (Home.html, about.html, products.html, account.html, contact.html, cart.html)
+6. [x] Fix Home.html icons to v6-compatible classes (fas fa-house, fas fa-store, etc.)
+7. [x] Standardize navbars across files for consistency (added logo where missing, flex layout)
+8. [ ] Test and verify all pages
+9. [ ] Mark complete and attempt_completion
+
