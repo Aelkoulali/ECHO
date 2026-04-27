@@ -28,25 +28,47 @@
   <!-- Main Content -->
   <div class="min-h-screen flex items-center justify-center bg-gray-100 p-8">
     <!-- Container with form + image -->
-    <div class="bg-white shadow-xl rounded-xl overflow-hidden maw-w-4xl w-full felx felx-col md:flex-row">
-      <!-- Form section-->
+    <div class="bg-white shadow-xl rounded-xl overflow-hidden max-w-4xl w-full flex flex-col md:flex-row">
+      <!-- Form section -->
       <div class="w-full md:w-1/2 p-10 bg-gradient-to-br from-white to-gray-50">
-        <h1 class="text-3xl font-extrabold mb-6 text-center md:text-left text-gray-800">Get in touch</h1>
-        <h2 class="mb-8 leading-relaxed text-center md:text-left text-gray-600">Please fill out the form below, and our client service team will reach out to you within 48 hours.</h2>
-         <form class="space-y-6">
+        <h1 class="text-3xl font-extrabold mb-6 text-center md:text-left text-gray-800">Get in Touch</h1>
+        <h2 class="mb-8 leading-relaxed text-center md:text-left text-gray-600">
+          Please fill out the form below, and our client service team will reach out to you within 48 hours.
+        </h2>
+        <form class="space-y-6">
+          <!-- Full Name -->
           <div>
-            <label class="block text-gray-700 font-semibold mb-6" for="name">Full name</label>
+            <label class="block text-gray-700 font-semibold mb-2" for="name">Full Name</label>
             <input
-              class="mb-6 shadow-sm border rounded-lg w-full py-3 px-4 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
-              id="username" type="text" placeholder="Enter your Full name">
+              class="shadow-sm border rounded-lg w-full py-3 px-4 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+              id="name" type="text" placeholder="Enter your full name">
           </div>
+          <!-- Email -->
           <div>
-            <label class="block text-gray-700 font-semibold mb-6" for="email">E-mail</label>
+            <label class="block text-gray-700 font-semibold mb-2" for="email">Email</label>
             <input
-              class="mb-6 shadow-sm border rounded-lg w-full py-3 px-4 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
-              id="password" type="password" placeholder="Enter your email">
+              class="shadow-sm border rounded-lg w-full py-3 px-4 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+              id="email" type="email" placeholder="Enter your email">
           </div>
-       </div>
+          <!-- Message -->
+          <div>
+            <label class="block text-gray-700 font-semibold mb-2" for="message">Message</label>
+            <textarea id="message" name="message" rows="4"
+              class="shadow-sm border rounded-lg w-full py-3 px-4 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+              placeholder="Write your message here..."></textarea>
+          </div>
+          <!-- Submit Button -->
+          <div>
+            <button type="submit"
+              class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 transition-colors">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- Optional: Image section -->
+      <div class="hidden md:block md:w-1/2 bg-cover bg-center" style="background-image: url('your-image-url.jpg');">
+      </div>
     </div>
   </div>
   <!-- Main Content -->
