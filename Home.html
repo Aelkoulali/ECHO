@@ -12,18 +12,27 @@
 <body class="bg-gray-100 text-center">
     <!-- Navbar header  -->
     <header>
-        <nav class="bg-black shadow p-4 flex items-center justify-center gap-6 flex-wrap top-0">
-            <div class="w-24 h-auto mx-auto sm:mx-0"><img src="Images/Logo/Logo.png" alt="ECHO Logo"></div>
-            <ul class="flex space-x-6 justify-center list-none p-0 m-0">
-                <li><a href="home.html" aria-label="home"><i class="fas fa-house text-white hover:text-blue-500"></i></a></li>
-                <li><a href="shop.html" aria-label="shop"><i class="fa-solid fa-shirt text-white hover:text-blue-500"></i></a></li>
-                <li><a href="about.html" aria-label="about"><i class="fas fa-circle-info text-white hover:text-blue-500"></i></a></li>
-                <li><a href="contact.html" aria-label="contact"><i class="fas fa-envelope text-white hover:text-blue-500"></i></a></li>
-                <li><a href="account.html" aria-label="account"><i class="fas fa-user text-white hover:text-blue-500"></i></a></li>
-                <li><a href="cart.html" aria-label="cart"><i class="fa-solid fa-bag-shopping text-white hover:text-blue-500"></i></a></li>
-            </ul>
+        <nav class="bg-black shadow p-4 flex items-center justify-between gap-6 flex-wrap">
+            <!-- Logo -->
+            <img src="Images/Logo/Logo.png" alt="ECHO Logo" class="w-24 h-auto mx-auto sm:mx-0">
+
+            <!-- Navigation Links and Search -->
+            <div class="flex items-center gap-6">
+                <!-- Navigation Links -->
+                <ul class="flex space-x-6 list-none p-0 m-0">
+                    <li><a href="shop.html" aria-label="shop" class="text-white hover:text-blue-500">Shop</a></li>
+                    <li><a href="about.html" aria-label="about" class="text-white hover:text-blue-500">About</a></li>
+                    <li><a href="contact.html" aria-label="contact" class="text-white hover:text-blue-500">Contact</a>
+                    </li>
+                    <li><a href="account.html" aria-label="account" class="text-white hover:text-blue-500"><i
+                                class="fas fa-user"></i></a></li>
+                    <li><a href="cart.html" aria-label="cart" class="text-white hover:text-blue-500"><i
+                                class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </div>
         </nav>
     </header>
+
 
     <!-- Hero Section with Background Image -->
     <section class="relative h-screen bg-[url('Images/Home/Hero.jpg')] bg-cover bg-center bg-no-repeat min-h-screen"
