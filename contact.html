@@ -10,17 +10,32 @@
 </head>
 <!-- Header - Updated FA v6 -->
 <header>
-  <nav class="bg-black shadow p-4 flex items-center justify-center gap-6 flex-wrap">
+  <nav class="bg-black shadow p-4 flex items-center justify-between gap-6 flex-wrap">
+    <!-- Logo -->
     <img src="Images/Logo/Logo.png" alt="ECHO Logo" class="w-24 h-auto mx-auto sm:mx-0">
-    <ul class="flex space-x-6 justify-center list-none p-0 m-0">
-      <li><a href="shop.html" class="text-white hover:text-blue-500">Shop</a></li>
-      <li><a href="about.html" class="text-white hover:text-blue-500">About</a></li>
-      <li><a href="contact.html" class="text-white hover:text-blue-500">Contact</a></li>
-      <li><a href="account.html"><i class="fas fa-user text-white hover:text-blue-500"></i></a></li>
-      <li><a href="cart.html"><i class="fas fa-shopping-cart text-white hover:text-blue-500"></i></a></li>
-      <input type="text" placeholder="Search..." class="ml-4 p-1 rounded bg-gray-800 text-white max-w-xs"
-        style="width: 100%; max-width: 200px;" />
-    </ul>
+
+    <!-- Navigation Links and Search -->
+    <div class="flex items-center gap-6">
+      <!-- Navigation Links -->
+      <ul class="flex space-x-6 list-none p-0 m-0">
+        <li><a href="shop.html" aria-label="shop" class="text-white hover:text-blue-500">Shop</a></li>
+        <li><a href="about.html" aria-label="about" class="text-white hover:text-blue-500">About</a></li>
+        <li><a href="contact.html" aria-label="contact" class="text-white hover:text-blue-500">Contact</a></li>
+        <li><a href="account.html" aria-label="account" class="text-white hover:text-blue-500"><i
+              class="fas fa-user"></i></a></li>
+        <li><a href="cart.html" aria-label="cart" class="text-white hover:text-blue-500"><i
+              class="fas fa-shopping-cart"></i></a></li>
+      </ul>
+
+      <!-- Search Form -->
+      <form>
+        <div class="mb-0">
+          <label for="search" class="sr-only">Search</label>
+          <input id="search" type="text" placeholder="Search..."
+            class="p-2 rounded bg-gray-800 text-white w-full max-w-xs" />
+        </div>
+      </form>
+    </div>
   </nav>
 </header>
 
