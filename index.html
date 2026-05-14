@@ -33,7 +33,7 @@
     </header>
 
 
-    <section class="min-h-screen bg-gradient-to-br from-[#10171b] to-[#17242b]">
+    <section class="min-h-screen bg-gradient-to-br from-[#0f1417] via-[#162126] to-[#1c2b33]">
 
         <div class="flex flex-col lg:flex-row min-h-screen">
 
@@ -41,20 +41,21 @@
             <div class="w-full lg:w-1/2 flex items-center justify-center px-8 py-16">
                 <div class="max-w-xl text-center lg:text-left">
 
-                    <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight">
+                    <h1 class="text-5xl md:text-6xl font-bold text-zinc-100 leading-tight">
                         Welcome to
                         <span class="block text-blue-500">
                             Echo
                         </span>
                     </h1>
 
-                    <p class="mt-6 text-gray-300 text-lg leading-relaxed">
+                    <p class="mt-6 text-zinc-400 text-lg leading-relaxed">
                         Step into a world of luxury where fashion meets confidence,
                         and every piece tells a story of prestige and style.
                     </p>
 
                     <div class="mt-10 flex gap-4 justify-center lg:justify-start">
-                        <a href="shop.html" class="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">
+                        <a href="shop.html"
+                            class="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">
                             Shop Now
                         </a>
 
@@ -68,8 +69,17 @@
             </div>
 
             <!-- RIGHT IMAGE -->
-            <div class="w-full lg:w-1/2 min-h-[400px] lg:min-h-screen">
-                <img src="Images/Home/Hero1.webp" alt="Hero Image" class="w-full h-full object-cover" />
+            <div class="relative w-full lg:w-1/2 min-h-[400px] lg:min-h-screen overflow-hidden">
+
+                <!-- Image -->
+                <img src="Images/Home/Hero1.webp" alt="Hero Image" class="w-full h-full object-cover scale-[1.02]" />
+
+                <!-- Left fade overlay -->
+                <div class="absolute inset-y-0 left-0 w-40
+               bg-gradient-to-r
+               from-[#17242b]
+               to-transparent"></div>
+
             </div>
 
         </div>
