@@ -11,35 +11,35 @@
 
 <body class="bg-gray-100 text-center">
   <header class="relative z-50 bg-black">
-  <nav class="p-4 flex items-center justify-between flex-wrap bg-black">
-    
-    <!-- Logo -->
-    <img src="Images/Logo/Logo.png" alt="ECHO Logo" class="w-24 h-auto mx-auto sm:mx-0">
+    <nav class="p-4 flex items-center justify-between flex-wrap bg-black">
 
-    <!-- Desktop Links -->
-    <ul class="hidden sm:flex space-x-6 list-none p-0 m-0">
-      <li><a href="shop.html" class="text-white hover:text-blue-500">Shop</a></li>
-      <li><a href="about.html" class="text-white hover:text-blue-500">About</a></li>
-      <li><a href="contact.html" class="text-white hover:text-blue-500">Contact</a></li>
-      <li><a href="account.html" class="text-white hover:text-blue-500">Login</a></li>
-      <li><a href="cart.html" class="text-white hover:text-blue-500">Cart</a></li>
+      <!-- Logo -->
+      <img src="Images/Logo/Logo.png" alt="ECHO Logo" class="w-24 h-auto mx-auto sm:mx-0">
+
+      <!-- Desktop Links -->
+      <ul class="hidden sm:flex space-x-6 list-none p-0 m-0">
+        <li><a href="shop.html" class="text-white hover:text-blue-500">Shop</a></li>
+        <li><a href="about.html" class="text-white hover:text-blue-500">About</a></li>
+        <li><a href="contact.html" class="text-white hover:text-blue-500">Contact</a></li>
+        <li><a href="account.html" class="text-white hover:text-blue-500">Login</a></li>
+        <li><a href="cart.html" class="text-white hover:text-blue-500">Cart</a></li>
+      </ul>
+
+      <!-- Mobile Hamburger -->
+      <button id="menu-btn" class="sm:hidden text-white focus:outline-none" aria-label="menu button">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <ul id="mobile-menu" class="hidden flex-col space-y-4 p-4 bg-black sm:hidden absolute w-full top-full left-0 z-40">
+      <li><a href="shop.html" class="text-white hover:text-blue-500 block">Shop</a></li>
+      <li><a href="about.html" class="text-white hover:text-blue-500 block">About</a></li>
+      <li><a href="contact.html" class="text-white hover:text-blue-500 block">Contact</a></li>
+      <li><a href="account.html" class="text-white hover:text-blue-500 block">Login</a></li>
+      <li><a href="cart.html" class="text-white hover:text-blue-500 block">Cart</a></li>
     </ul>
-
-    <!-- Mobile Hamburger -->
-    <button id="menu-btn" class="sm:hidden text-white focus:outline-none" aria-label="menu button">
-      <i class="fas fa-bars text-2xl"></i>
-    </button>
-  </nav>
-
-  <!-- Mobile Menu -->
-  <ul id="mobile-menu" class="hidden flex-col space-y-4 p-4 bg-black sm:hidden absolute w-full top-full left-0 z-40">
-    <li><a href="shop.html" class="text-white hover:text-blue-500 block">Shop</a></li>
-    <li><a href="about.html" class="text-white hover:text-blue-500 block">About</a></li>
-    <li><a href="contact.html" class="text-white hover:text-blue-500 block">Contact</a></li>
-    <li><a href="account.html" class="text-white hover:text-blue-500 block">Login</a></li>
-    <li><a href="cart.html" class="text-white hover:text-blue-500 block">Cart</a></li>
-  </ul>
-</header>
+  </header>
 
   <body class="bg-gray-100 text-center">
     <!-- Main Content -->
@@ -117,15 +117,15 @@
           <p class="text-sm">ECHO Luxury Fashion.<br>
             Premium streetwear and designer goods for the modern elite.</p>
           <div class="flex flex-auto justify-between">
-          <a href="https://www.apple.com/app-store/">
-            <img src="Images/App/appstore.png" alt="App Store"
-              class="w-[120px] h-[40px] m-2.5 border border-white rounded-sm">
-          </a>
-          <a href="https://play.google.com/store/">
-            <img src="Images/App/googleplay.png" alt="Google Play Store"
-              class="w-[120px] h-[40px] m-2.5 border border-white rounded-sm">
-          </a>
-        </div>
+            <a href="https://www.apple.com/app-store/">
+              <img src="Images/App/appstore.png" alt="App Store"
+                class="w-[120px] h-[40px] m-2.5 border border-white rounded-sm">
+            </a>
+            <a href="https://play.google.com/store/">
+              <img src="Images/App/googleplay.png" alt="Google Play Store"
+                class="w-[120px] h-[40px] m-2.5 border border-white rounded-sm">
+            </a>
+          </div>
         </div>
         <!-- 2. Company Column -->
         <div>
@@ -223,14 +223,14 @@
     </script>
 
     <script>
-  const menuBtn = document.getElementById("menu-btn");
-  const mobileMenu = document.getElementById("mobile-menu");
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
 
-  menuBtn.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
-    mobileMenu.classList.toggle("flex");
-  });
-</script>
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+        mobileMenu.classList.toggle("flex");
+      });
+    </script>
   </body>
 
 </html>
