@@ -212,6 +212,7 @@
 
 
     <script>
+      // Caroussel
       const carousel = document.getElementById('carousel');
       let index = 0;
 
@@ -220,9 +221,7 @@
         carousel.style.transform = `translateX(-${index * 100}%)`;
       }, 3000); // Change slide every 3 seconds  
 
-    </script>
-
-    <script>
+      // Menu btn 
       const menuBtn = document.getElementById("menu-btn");
       const mobileMenu = document.getElementById("mobile-menu");
 
@@ -230,6 +229,7 @@
         mobileMenu.classList.toggle("hidden");
         mobileMenu.classList.toggle("flex");
       });
+
     </script>
   </body>
 
