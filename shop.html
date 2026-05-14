@@ -10,35 +10,35 @@
 </head>
 <!-- Header -->
 <header class="relative z-50 bg-black">
-    <nav class="p-4 flex items-center justify-between flex-wrap bg-black">
+  <nav class="p-4 flex items-center justify-between flex-wrap bg-black">
 
-      <!-- Logo -->
-      <img src="Images/Logo/Logo.png" alt="ECHO Logo" class="w-24 h-auto mx-auto sm:mx-0">
+    <!-- Logo -->
+    <img src="Images/Logo/Logo.png" alt="ECHO Logo" class="w-24 h-auto mx-auto sm:mx-0">
 
-      <!-- Desktop Links -->
-      <ul class="hidden sm:flex space-x-6 list-none p-0 m-0">
-        <li><a href="shop.html" class="text-white hover:text-blue-500">Shop</a></li>
-        <li><a href="about.html" class="text-white hover:text-blue-500">About</a></li>
-        <li><a href="contact.html" class="text-white hover:text-blue-500">Contact</a></li>
-        <li><a href="account.html" class="text-white hover:text-blue-500">Login</a></li>
-        <li><a href="cart.html" class="text-white hover:text-blue-500">Cart</a></li>
-      </ul>
-
-      <!-- Mobile Hamburger -->
-      <button id="menu-btn" class="sm:hidden text-white focus:outline-none" aria-label="menu button">
-        <i class="fas fa-bars text-2xl"></i>
-      </button>
-    </nav>
-
-    <!-- Mobile Menu -->
-    <ul id="mobile-menu" class="hidden flex-col space-y-4 p-4 bg-black sm:hidden absolute w-full top-full left-0 z-40">
-      <li><a href="shop.html" class="text-white hover:text-blue-500 block">Shop</a></li>
-      <li><a href="about.html" class="text-white hover:text-blue-500 block">About</a></li>
-      <li><a href="contact.html" class="text-white hover:text-blue-500 block">Contact</a></li>
-      <li><a href="account.html" class="text-white hover:text-blue-500 block">Login</a></li>
-      <li><a href="cart.html" class="text-white hover:text-blue-500 block">Cart</a></li>
+    <!-- Desktop Links -->
+    <ul class="hidden sm:flex space-x-6 list-none p-0 m-0">
+      <li><a href="shop.html" class="text-white hover:text-blue-500">Shop</a></li>
+      <li><a href="about.html" class="text-white hover:text-blue-500">About</a></li>
+      <li><a href="contact.html" class="text-white hover:text-blue-500">Contact</a></li>
+      <li><a href="account.html" class="text-white hover:text-blue-500">Login</a></li>
+      <li><a href="cart.html" class="text-white hover:text-blue-500">Cart</a></li>
     </ul>
-  </header>
+
+    <!-- Mobile Hamburger -->
+    <button id="menu-btn" class="sm:hidden text-white focus:outline-none" aria-label="menu button">
+      <i class="fas fa-bars text-2xl"></i>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <ul id="mobile-menu" class="hidden flex-col space-y-4 p-4 bg-black sm:hidden absolute w-full top-full left-0 z-40">
+    <li><a href="shop.html" class="text-white hover:text-blue-500 block">Shop</a></li>
+    <li><a href="about.html" class="text-white hover:text-blue-500 block">About</a></li>
+    <li><a href="contact.html" class="text-white hover:text-blue-500 block">Contact</a></li>
+    <li><a href="account.html" class="text-white hover:text-blue-500 block">Login</a></li>
+    <li><a href="cart.html" class="text-white hover:text-blue-500 block">Cart</a></li>
+  </ul>
+</header>
 
 
 <body class="bg-gray-100 text-center">
@@ -152,13 +152,13 @@
   </footer>
   <script>
     // Menu btn 
-      const menuBtn = document.getElementById("menu-btn");
-      const mobileMenu = document.getElementById("mobile-menu");
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
 
-      menuBtn.addEventListener("click", () => {
-        mobileMenu.classList.toggle("hidden");
-        mobileMenu.classList.toggle("flex");
-      });
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+      mobileMenu.classList.toggle("flex");
+    });
   </script>
 </body>
 
