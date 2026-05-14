@@ -2,88 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ECHO - Home</title>
-    <link rel="stylesheet" href="dist/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECHO - Home</title>
+  <link rel="stylesheet" href="dist/styles.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 text-center">
-    <!-- Navbar header  -->
-    <header>
-        <nav class="bg-black shadow p-4 flex items-center justify-between gap-6 flex-wrap">
-            <!-- Logo -->
-            <img src="Images/Logo/Logo.png" alt="ECHO Logo" class="w-24 h-auto mx-auto sm:mx-0">
+<body class="bg-[#0f1417]">
 
-            <!-- Navigation Links and Search -->
-            <div class="flex items-center gap-6">
-                <!-- Navigation Links -->
-                <ul class="flex space-x-6 list-none p-0 m-0">
-                    <li><a href="shop.html" aria-label="shop" class="text-white hover:text-blue-500">Shop</a></li>
-                    <li><a href="about.html" aria-label="about" class="text-white hover:text-blue-500">About</a></li>
-                    <li><a href="contact.html" aria-label="contact" class="text-white hover:text-blue-500">Contact</a>
-                    </li>
-                    <li><a href="account.html" aria-label="account" class="text-white hover:text-blue-500">Login</a>
-                    </li>
-                    <li><a href="cart.html" aria-label="cart" class="text-white hover:text-blue-500">Cart</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+  <!-- Fixed Navbar -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-transparent">
+    <nav class="p-4 flex items-center justify-between flex-wrap">
+      <!-- Logo -->
+      <img src="Images/Logo/Logo.png" alt="ECHO Logo" class="w-24 h-auto mx-auto sm:mx-0">
 
+      <!-- Desktop Links -->
+      <ul class="hidden sm:flex space-x-6 list-none p-0 m-0">
+        <li><a href="shop.html" class="text-white hover:text-blue-500">Shop</a></li>
+        <li><a href="about.html" class="text-white hover:text-blue-500">About</a></li>
+        <li><a href="contact.html" class="text-white hover:text-blue-500">Contact</a></li>
+        <li><a href="account.html" class="text-white hover:text-blue-500">Login</a></li>
+        <li><a href="cart.html" class="text-white hover:text-blue-500">Cart</a></li>
+      </ul>
 
-    <section class="min-h-screen bg-gradient-to-br from-[#0f1417] via-[#162126] to-[#1c2b33]">
+      <!-- Hamburger Menu Button -->
+      <button id="menu-btn" class="sm:hidden text-white focus:outline-none">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </nav>
 
-        <div class="flex flex-col lg:flex-row min-h-screen">
+    <!-- Mobile Menu -->
+    <ul id="mobile-menu"
+      class="hidden flex-col space-y-4 p-4 bg-[#0f1417] sm:hidden absolute w-full top-full left-0 z-40">
+      <li><a href="shop.html" class="text-white hover:text-blue-500 block">Shop</a></li>
+      <li><a href="about.html" class="text-white hover:text-blue-500 block">About</a></li>
+      <li><a href="contact.html" class="text-white hover:text-blue-500 block">Contact</a></li>
+      <li><a href="account.html" class="text-white hover:text-blue-500 block">Login</a></li>
+      <li><a href="cart.html" class="text-white hover:text-blue-500 block">Cart</a></li>
+    </ul>
+  </header>
 
-            <!-- LEFT CONTENT -->
-            <div class="w-full lg:w-1/2 flex items-center justify-center px-8 py-16">
-                <div class="max-w-xl text-center lg:text-left">
+  <!-- Hero Section -->
+  <section class="pt-16 min-h-screen bg-gradient-to-br from-[#0f1417] via-[#162126] to-[#1c2b33]">
+    <div class="flex flex-col lg:flex-row min-h-screen">
 
-                    <h1 class="text-5xl md:text-6xl font-bold text-zinc-100 leading-tight">
-                        Welcome to
-                        <span class="block text-blue-500">
-                            Echo
-                        </span>
-                    </h1>
-
-                    <p class="mt-6 text-zinc-400 text-lg leading-relaxed">
-                        Step into a world of luxury where fashion meets confidence,
-                        and every piece tells a story of prestige and style.
-                    </p>
-
-                    <div class="mt-10 flex gap-4 justify-center lg:justify-start">
-                        <a href="shop.html"
-                            class="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">
-                            Shop Now
-                        </a>
-
-                        <a href="about.html"
-                            class="px-6 py-3 border border-gray-500 text-white rounded-md hover:bg-white hover:text-black transition">
-                            About Us
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- RIGHT IMAGE -->
-            <div class="relative w-full lg:w-1/2 min-h-[400px] lg:min-h-screen overflow-hidden">
-
-                <!-- Image -->
-                <img src="Images/Home/Hero1.webp" alt="Hero Image" class="w-full h-full object-cover scale-[1.02]" />
-
-                <!-- Left fade overlay -->
-                <div class="absolute inset-y-0 left-0 w-40
-               bg-gradient-to-r
-               from-[#17242b]
-               to-transparent"></div>
-
-            </div>
-
+      <!-- Left Content -->
+      <div class="w-full lg:w-1/2 flex items-center justify-center px-8 py-16 relative z-10">
+        <div class="max-w-xl text-center lg:text-left">
+          <h1 class="text-5xl md:text-6xl font-bold text-zinc-100 leading-tight">
+            Welcome to <span class="block text-blue-500">Echo</span>
+          </h1>
+          <p class="mt-6 text-zinc-400 text-lg leading-relaxed">
+            Step into a world of luxury where fashion meets confidence, and every piece tells a story
+            of prestige and style.
+          </p>
+          <div class="mt-10 flex gap-4 justify-center lg:justify-start">
+            <a href="shop.html"
+              class="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">Shop Now</a>
+            <a href="about.html"
+              class="px-6 py-3 border border-gray-500 text-white rounded-md hover:bg-white hover:text-black transition">About
+              Us</a>
+          </div>
         </div>
-    </section>
+      </div>
+
+      <!-- Right Image -->
+      <div class="relative w-full lg:w-1/2 min-h-[400px] lg:min-h-screen overflow-hidden z-0">
+        <img src="Images/Home/Hero1.webp" alt="Hero Image" class="w-full h-full object-cover scale-[1.02]" />
+        <div class="absolute inset-y-0 left-0 w-40 bg-gradient-to-r from-[#17242b] to-transparent z-10"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Mobile Menu Toggle Script -->
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
 </body>
 
 </html>
