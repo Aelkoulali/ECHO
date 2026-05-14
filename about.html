@@ -10,38 +10,36 @@
 </head>
 
 <body class="bg-gray-100 text-center">
-  <!-- Header -->
-  <header>
-    <nav class="bg-black shadow p-4 flex items-center justify-between gap-6 flex-wrap">
-      <!-- Logo -->
-      <a href="index.html" class="hover:opacity-80 transition duration-300">
-        <img src="Images/Logo/Logo.png" alt="ECHO Logo" class="w-24 h-auto mx-auto sm:mx-0">
-      </a>
+  <header class="relative z-50 bg-black">
+  <nav class="p-4 flex items-center justify-between flex-wrap bg-black">
+    
+    <!-- Logo -->
+    <img src="Images/Logo/Logo.png" alt="ECHO Logo" class="w-24 h-auto mx-auto sm:mx-0">
 
-      <!-- Navigation Links and Search -->
-      <div class="flex items-center gap-6">
-        <!-- Navigation Links -->
-        <ul class="flex space-x-6 list-none p-0 m-0">
-          <li><a href="shop.html" aria-label="shop" class="text-white hover:text-blue-500">Shop</a></li>
-          <li><a href="about.html" aria-label="about" class="text-white hover:text-blue-500">About</a></li>
-          <li><a href="contact.html" aria-label="contact" class="text-white hover:text-blue-500">Contact</a></li>
-          <li><a href="account.html" aria-label="account" class="text-white hover:text-blue-500"><i
-                class="fas fa-user"></i></a></li>
-          <li><a href="cart.html" aria-label="cart" class="text-white hover:text-blue-500"><i
-                class="fas fa-shopping-cart"></i></a></li>
-        </ul>
+    <!-- Desktop Links -->
+    <ul class="hidden sm:flex space-x-6 list-none p-0 m-0">
+      <li><a href="shop.html" class="text-white hover:text-blue-500">Shop</a></li>
+      <li><a href="about.html" class="text-white hover:text-blue-500">About</a></li>
+      <li><a href="contact.html" class="text-white hover:text-blue-500">Contact</a></li>
+      <li><a href="account.html" class="text-white hover:text-blue-500">Login</a></li>
+      <li><a href="cart.html" class="text-white hover:text-blue-500">Cart</a></li>
+    </ul>
 
-        <!-- Search Form -->
-        <form>
-          <div class="mb-0">
-            <label for="search" class="sr-only">Search</label>
-            <input id="search" type="text" placeholder="Search..."
-              class="p-2 rounded bg-gray-800 text-white w-full max-w-xs" />
-          </div>
-        </form>
-      </div>
-    </nav>
-  </header>
+    <!-- Mobile Hamburger -->
+    <button id="menu-btn" class="sm:hidden text-white focus:outline-none" aria-label="menu button">
+      <i class="fas fa-bars text-2xl"></i>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <ul id="mobile-menu" class="hidden flex-col space-y-4 p-4 bg-black sm:hidden absolute w-full top-full left-0 z-40">
+    <li><a href="shop.html" class="text-white hover:text-blue-500 block">Shop</a></li>
+    <li><a href="about.html" class="text-white hover:text-blue-500 block">About</a></li>
+    <li><a href="contact.html" class="text-white hover:text-blue-500 block">Contact</a></li>
+    <li><a href="account.html" class="text-white hover:text-blue-500 block">Login</a></li>
+    <li><a href="cart.html" class="text-white hover:text-blue-500 block">Cart</a></li>
+  </ul>
+</header>
 
   <body class="bg-gray-100 text-center">
     <!-- Main Content -->
@@ -223,6 +221,16 @@
       }, 3000); // Change slide every 3 seconds  
 
     </script>
+
+    <script>
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+    mobileMenu.classList.toggle("flex");
+  });
+</script>
   </body>
 
 </html>
