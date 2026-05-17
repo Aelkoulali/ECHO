@@ -1028,6 +1028,11 @@ video {
   background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
 }
 
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[url\(\'Images\/Home\/Hero1\.webp\'\)\] {
   background-image: url('Images/Home/Hero1.webp');
 }
@@ -1463,6 +1468,11 @@ video {
 .hover\:bg-cyan-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(8 145 178 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-red-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-black:hover {
