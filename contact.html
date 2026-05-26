@@ -109,14 +109,18 @@
   </div>
   <!-- Main Content -->
   <!-- Enhanced Footer -->
-<footer class="bg-black text-white mt-12 lg:mt-20 py-10 px-4 sm:px-6">
+<footer class="bg-black text-white mt-8 py-10 px-4 sm:px-6">
 
   <!-- Main Footer Grid -->
-  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 px-4">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-10 px-4">
 
-    <!-- 1. Logo + Social -->
-    <div class="w-full text-left">
-      <img src="Images/Logo/Logo.png" alt="ECHO" class="w-32 h-auto mb-4">
+    <!-- Logo + Social -->
+    <div class="xl:col-span-3 text-left">
+
+      <img
+        src="Images/Logo/Logo.png"
+        alt="ECHO"
+        class="w-32 h-auto mb-4">
 
       <p class="text-sm leading-6 text-gray-300">
         ECHO Luxury Fashion.<br>
@@ -124,10 +128,13 @@
       </p>
 
       <!-- Social -->
-      <div class="flex flex-col mt-6">
-        <h4 class="text-lg font-bold mb-4">Follow Us</h4>
+      <div class="mt-6">
+        <h4 class="text-lg font-bold mb-4">
+          Follow Us
+        </h4>
 
         <div class="flex space-x-4">
+
           <a href="https://www.linkedin.com/"
             class="text-xl hover:text-blue-400 transition duration-300"
             aria-label="linkedin">
@@ -151,15 +158,21 @@
             aria-label="youtube">
             <i class="fab fa-youtube"></i>
           </a>
+
         </div>
       </div>
+
     </div>
 
-    <!-- 2. About Echo -->
-    <div class="flex flex-col w-full text-left">
-      <h4 class="text-lg font-bold mb-4">About Echo</h4>
+    <!-- About Echo -->
+    <div class="xl:col-span-2 flex flex-col text-left">
+
+      <h4 class="text-lg font-bold mb-4">
+        About Echo
+      </h4>
 
       <ul class="space-y-3 text-sm text-gray-300">
+
         <li>
           <a href="about.html" class="hover:text-blue-400 transition">
             About us
@@ -189,14 +202,20 @@
             Careers
           </a>
         </li>
+
       </ul>
+
     </div>
 
-    <!-- 3. Customer Service -->
-    <div class="flex flex-col w-full text-left">
-      <h4 class="text-lg font-bold mb-4">Customer Service</h4>
+    <!-- Customer Service -->
+    <div class="xl:col-span-2 flex flex-col text-left">
+
+      <h4 class="text-lg font-bold mb-4">
+        Customer Service
+      </h4>
 
       <ul class="space-y-3 text-sm text-gray-300">
+
         <li>
           <a href="contact.html" class="hover:text-blue-400 transition">
             Contact
@@ -226,109 +245,131 @@
             FAQs
           </a>
         </li>
+
       </ul>
+
     </div>
 
-    <!-- 4. Newsletter -->
-    <div class="w-full text-left">
-      <h4 class="text-lg font-bold mb-4">Newsletter</h4>
+    <!-- Newsletter -->
+    <div class="xl:col-span-5 text-left">
+
+      <h4 class="text-lg font-bold mb-4">
+        Newsletter
+      </h4>
 
       <p class="text-sm mb-4 text-gray-300">
         Get updates by Email
       </p>
 
-      <form class="mb-4 flex flex-col gap-3 w-full">
+      <!-- Form -->
+      <form class="mb-4 flex flex-col sm:flex-row gap-3 w-full">
 
-        <label class="w-full">
-          <span class="sr-only">Email address</span>
+        <label class="flex-1">
+
+          <span class="sr-only">
+            Email address
+          </span>
 
           <input
             type="email"
             placeholder="Your email"
             class="w-full p-3 bg-gray-800 border border-gray-600 rounded-md focus:outline-none focus:border-blue-500 text-white">
+
         </label>
 
         <button
           type="submit"
-          class="w-full py-3 bg-blue-700 hover:bg-blue-800 text-white font-semibold rounded-md shadow-md transition duration-300">
+          class="px-6 py-3 bg-blue-700 hover:bg-blue-800 text-white font-semibold rounded-md shadow-md transition duration-300 w-full sm:w-fit">
+
           Subscribe
+
         </button>
+
       </form>
 
-      <p class="text-xs leading-5 text-gray-400">
-        By signing up, you consent to receiving marketing by email and
-        acknowledge you have read our Privacy Policy.
+      <p class="text-xs leading-5 text-gray-400 max-w-lg">
+        By signing up, you consent to receiving marketing by email
+        and acknowledge you have read our Privacy Policy.
         Unsubscribe anytime at the bottom of our emails.
       </p>
+
     </div>
 
   </div>
 
-  <!-- Download App Section -->
-  <div class="border-t border-gray-800 mt-10 pt-8 text-sm opacity-90">
+  <!-- Download App -->
+  <div class="border-t border-gray-800 mt-10 pt-8">
 
     <div class="text-center">
-      <h5 class="text-lg font-bold mb-4">Download Our App</h5>
 
-      <div class="flex flex-wrap justify-center gap-3 mb-4">
+      <h5 class="text-lg font-bold mb-4">
+        Download Our App
+      </h5>
+
+      <div class="flex flex-wrap justify-center gap-3">
 
         <a href="https://www.apple.com/app-store/">
+
           <img
             src="Images/App/appstore.png"
             alt="App Store"
             class="w-[120px] h-[40px] border border-white rounded-md">
+
         </a>
 
         <a href="https://play.google.com/store/">
+
           <img
             src="Images/App/googleplay.png"
             alt="Google Play Store"
             class="w-[120px] h-[40px] border border-white rounded-md">
+
         </a>
 
       </div>
+
     </div>
 
   </div>
 
-  <!-- Bottom Links -->
-  <div class="border-t border-gray-800 pt-6 text-sm opacity-75">
+  <!-- Bottom Footer -->
+  <div class="border-t border-gray-800 mt-8 pt-6">
 
-    <ul class="flex flex-col sm:flex-row justify-center items-center gap-4 text-center">
+    <ul class="flex flex-col sm:flex-row justify-center items-center gap-4 text-center text-sm text-gray-400">
 
       <li>
-        <a href="#" class="underline hover:text-gray-300 transition">
+        <a href="#" class="underline hover:text-white transition">
           Privacy Policy
         </a>
       </li>
 
       <li>
-        <a href="#" class="underline hover:text-gray-300 transition">
+        <a href="#" class="underline hover:text-white transition">
           Terms and Conditions
         </a>
       </li>
 
       <li>
-        <a href="#" class="underline hover:text-gray-300 transition">
+        <a href="#" class="underline hover:text-white transition">
           Accessibility
         </a>
       </li>
 
       <li>
-        <a href="#" class="underline hover:text-gray-300 transition">
+        <a href="#" class="underline hover:text-white transition">
           Cookie Settings
         </a>
       </li>
 
       <li>
-        <a href="#" class="underline hover:text-gray-300 transition">
+        <a href="#" class="underline hover:text-white transition">
           Protection of Intellectual Property
         </a>
       </li>
 
     </ul>
 
-    <p class="mt-6 text-center text-gray-400">
+    <p class="mt-6 text-center text-sm text-gray-500">
       &copy; 2026 ECHO - All rights reserved.
     </p>
 
