@@ -64,20 +64,31 @@
         <img src="Images/Products/air_jordan.jpg" class="absolute inset-0 w-full h-full object-cover"
           alt="T-shirt Jordan" />
       </div>
-      <div class="flex flex-col justify-center">
-        <h3 class="font-semibold text-lg">T-shirt Jordan</h3>
-        <p class="text-gray-500 text-sm">$55.00</p>
-      </div>
-    </div>
-    <div class="flex items-center space-x-4 mt-2 sm:mt-0">
-      <label class="flex flex-col text-sm">
-        Quantity
-        <input type="number" value="1" min="1" class="w-16 border rounded px-2 py-1 mt-1 text-center focus:outline-none focus:ring-2 focus:ring-green-400" />
-      </label>
-      <button
-  class="flex items-center justify-center w-8 h-8 bg-gray-100 hover:bg-red-500 text-gray-600 hover:text-white rounded-full transition-colors">
-  <i class="fa-solid fa-trash"></i>
-</button>
+      <div class="flex items-center gap-3">
+
+  <div
+    class="flex items-center bg-white border border-gray-200 rounded-full shadow-sm">
+
+    <button
+      class="w-9 h-9 flex items-center justify-center hover:bg-gray-100 rounded-l-full">
+      <i class="fa-solid fa-minus text-xs"></i>
+    </button>
+
+    <span class="w-10 text-center font-semibold">1</span>
+
+    <button
+      class="w-9 h-9 flex items-center justify-center hover:bg-gray-100 rounded-r-full">
+      <i class="fa-solid fa-plus text-xs"></i>
+    </button>
+
+  </div>
+
+  <button
+    class="w-9 h-9 flex items-center justify-center rounded-full border border-gray-200 bg-white shadow-sm text-gray-500 hover:bg-red-500 hover:text-white hover:border-red-500 transition">
+    <i class="fa-solid fa-trash"></i>
+  </button>
+
+</div>
     </div>
   </div>
 
