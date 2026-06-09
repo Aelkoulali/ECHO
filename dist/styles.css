@@ -1004,8 +1004,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[url\(\'Images\/Home\/Hero1\.webp\'\)\] {
-  background-image: url('Images/Home/Hero1.webp');
+.bg-\[url\(\'Images\/Login\/Login\.jpg\'\)\] {
+  background-image: url('Images/Login/Login.jpg');
 }
 
 .bg-gradient-to-br {
