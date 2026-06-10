@@ -1019,6 +1019,11 @@ video {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
 }
 
+.bg-pink-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 39 119 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[url\(\'Images\/Login\/Login\.jpg\'\)\] {
   background-image: url('Images/Login/Login.jpg');
 }
