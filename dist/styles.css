@@ -769,6 +769,10 @@ video {
   min-height: 100vh;
 }
 
+.min-h-\[50vh\] {
+  min-height: 50vh;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1194,6 +1198,11 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 
 .p-0 {
@@ -1805,6 +1814,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:min-h-screen {
+    min-height: 100vh;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -1819,6 +1832,11 @@ video {
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
 
   .lg\:px-20 {
