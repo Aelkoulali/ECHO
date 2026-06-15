@@ -50,79 +50,52 @@
 
 
 
-  <!-- Hero Section -->
-  <section class="min-h-screen flex flex-col lg:flex-row relative z-20">
+ <!-- Hero Section -->
+<div class="w-full min-h-screen bg-gray-100 flex items-center justify-center p-6 md:p-10">
 
-    <!-- Left Side -->
-    <div
-      class="w-full lg:w-1/2 flex items-center justify-center px-8 lg:px-16 bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950">
+  <div class="relative w-full max-w-6xl bg-white shadow-2xl overflow-hidden">
 
-      <div class="max-w-xl">
-        <span class="text-blue-500 uppercase tracking-[0.3em] text-sm font-semibold">
-          Luxury Collection 2025
-        </span>
+    <!-- Background split -->
+    <div class="absolute inset-0 flex">
+      <div class="w-1/2 bg-gradient-to-br from-gray-200 to-gray-100"></div>
+      <div class="w-1/2 bg-white"></div>
+    </div>
 
-        <h1 class="mt-4 text-5xl md:text-7xl font-bold text-white leading-tight">
-          Fashion
-          <span class="block text-blue-500">Redefined</span>
-        </h1>
+    <!-- CONTENT WRAPPER -->
+    <div class="relative z-10 flex flex-col md:flex-row items-center">
 
-        <p class="mt-6 text-gray-300 text-lg leading-relaxed">
-          Discover premium clothing crafted for confidence,
-          elegance, and modern style. Every piece is designed
-          to leave a lasting impression.
+      <!-- LEFT CONTENT -->
+      <div class="w-full md:w-1/2 p-8 md:p-14 flex flex-col justify-center text-center md:text-left">
+
+        <p class="text-xs md:text-sm uppercase tracking-widest text-gray-600">
+          Women's Sweatshirt
         </p>
 
-        <div class="mt-10 flex flex-wrap gap-4">
+        <h1 class="text-4xl md:text-5xl font-semibold tracking-tight leading-tight mt-4 text-gray-900">
+          SHOP NEW<br />ARRIVALS
+        </h1>
 
-          <a href="shop.html"
-            class="px-8 py-4 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition duration-300 shadow-lg shadow-blue-900/40">
-            Shop Collection
-          </a>
+        <button class="mt-6 md:mt-8 px-6 py-3 bg-black text-white text-sm uppercase tracking-widest hover:bg-gray-900 transition w-fit mx-auto md:mx-0">
+          Shop Now
+        </button>
 
-          <a href="about.html"
-            class="px-8 py-4 border border-white/20 backdrop-blur-sm text-white rounded-lg hover:bg-white hover:text-black transition duration-300">
-            Discover More
-          </a>
+      </div>
 
-        </div>
+      <!-- RIGHT IMAGE -->
+      <div class="w-full md:w-1/2 flex justify-center md:justify-end items-end">
 
-        <!-- Stats -->
-        <div class="mt-16 flex gap-10">
+        <img
+          src="Images/Login/Login.jpg"
+          class="w-full object-cover object-top
+                 h-[420px] sm:h-[500px] md:h-[860px]"
+          alt="model"
+        />
 
-          <div>
-            <h2 class="text-3xl font-bold text-white">10K+</h2>
-            <p class="text-gray-400 text-sm">Happy Customers</p>
-          </div>
-
-          <div>
-            <h2 class="text-3xl font-bold text-white">500+</h2>
-            <p class="text-gray-400 text-sm">Premium Products</p>
-          </div>
-
-          <div>
-            <h2 class="text-3xl font-bold text-white">50+</h23>
-              <p class="text-gray-400 text-sm">Luxury Brands</p>
-          </div>
-
-        </div>
       </div>
 
     </div>
-
-
-    <!-- Right Side -->
-    <div class="relative w-full lg:w-1/2 min-h-[50vh] lg:min-h-screen">
-      <img src="Images/Login/Login.jpg" alt="Fashion Hero"
-        class="w-full h-full object-cover object-center lg:object-center">
-    </div>
-
-
-
-
-    </div>
-
-  </section>
+  </div>
+</div>
 
   <script>
     const btn = document.getElementById('menu-btn');
