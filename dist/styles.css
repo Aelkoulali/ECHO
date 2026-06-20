@@ -600,10 +600,6 @@ video {
   border-width: 0;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -622,10 +618,6 @@ video {
 
 .top-0 {
   top: 0px;
-}
-
-.top-\[64px\] {
-  top: 64px;
 }
 
 .top-full {
@@ -918,10 +910,6 @@ video {
   gap: 1.25rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -997,14 +985,6 @@ video {
   border-top-width: 1px;
 }
 
-.border-t-0 {
-  border-top-width: 0px;
-}
-
-.border-t-2 {
-  border-top-width: 2px;
-}
-
 .border-none {
   border-style: none;
 }
@@ -1038,16 +1018,6 @@ video {
   border-color: rgb(255 255 255 / 0.1);
 }
 
-.border-t-white {
-  --tw-border-opacity: 1;
-  border-top-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
-.border-t-black {
-  --tw-border-opacity: 1;
-  border-top-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
@@ -1073,8 +1043,9 @@ video {
   background-color: rgb(112 26 117 / var(--tw-bg-opacity, 1));
 }
 
-.bg-fuchsia-900\/20 {
-  background-color: rgb(112 26 117 / 0.2);
+.bg-fuchsia-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 4 78 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gray-100 {
@@ -1114,15 +1085,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-fuchsia-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 4 78 / var(--tw-bg-opacity, 1));
-}
-
-.bg-fuchsia-950\/20 {
-  background-color: rgb(74 4 78 / 0.2);
 }
 
 .bg-gradient-to-br {
@@ -1702,16 +1664,6 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-gray-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-black:hover {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .hover\:opacity-80:hover {
