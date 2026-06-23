@@ -1676,6 +1676,11 @@ video {
   color: rgb(103 232 249 / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-cyan-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(14 116 144 / var(--tw-text-opacity, 1));
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
