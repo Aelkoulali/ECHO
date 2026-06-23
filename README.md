@@ -1,4 +1,3 @@
 # 🗂️ ECHO 👜
 ## ✅ E-Commerce Project
-## ✅ Tailwind CSS
-## ✅ HTML  JavaScript
+## ✅ HTML Tailwind CSS JavaScript
