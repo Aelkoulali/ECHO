@@ -1631,6 +1631,11 @@ video {
   color: rgb(30 64 175 / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-cyan-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity, 1));
+}
+
 .hover\:text-indigo-700:hover {
   --tw-text-opacity: 1;
   color: rgb(67 56 202 / var(--tw-text-opacity, 1));
@@ -1661,24 +1666,18 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-cyan-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(6 182 212 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-cyan-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(103 232 249 / var(--tw-text-opacity, 1));
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
-}
-
-.hover\:underline-offset-0:hover {
-  text-underline-offset: 0px;
-}
-
-.hover\:underline-offset-1:hover {
-  text-underline-offset: 1px;
-}
-
-.hover\:underline-offset-2:hover {
-  text-underline-offset: 2px;
-}
-
-.hover\:underline-offset-auto:hover {
-  text-underline-offset: auto;
 }
 
 .hover\:underline-offset-8:hover {
