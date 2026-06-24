@@ -12,7 +12,8 @@
 <body class="bg-gray-100 text-center">
   <!-- Header -->
   <header class="relative z-50 bg-fuchsia-900 text-white">
-    <nav class="p-4 flex items-center justify-between flex-wrap bg-fuchsia-900 backdrop-blur-md border-b border-white/10">
+    <nav
+      class="p-4 flex items-center justify-between flex-wrap bg-fuchsia-900 backdrop-blur-md border-b border-white/10">
 
       <!-- Logo -->
       <a href="index.html" class="hover:opacity-80 transition duration-300">
@@ -22,9 +23,12 @@
       <!-- Desktop Links -->
       <ul class="hidden sm:flex space-x-6 list-none p-0 m-0">
         <li><a href="shop.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer">Shop</a></li>
-        <li><a href="about.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer">About</a></li>
-        <li><a href="contact.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer">Contact</a></li>
-        <li><a href="login.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer">Login</a></li>
+        <li><a href="about.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer">About</a>
+        </li>
+        <li><a href="contact.html"
+            class="text-white hover:underline-offset-8 hover:underline cursor-pointer">Contact</a></li>
+        <li><a href="login.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer">Login</a>
+        </li>
         <li><a href="cart.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer">Cart</a></li>
       </ul>
 
@@ -35,12 +39,18 @@
     </nav>
 
     <!-- Mobile Menu -->
-    <ul id="mobile-menu" class="hidden flex-col space-y-4 p-4 bg-fuchsia-900 sm:hidden absolute w-full top-full left-0 z-40">
-      <li><a href="shop.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer block">Shop</a></li>
-      <li><a href="about.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer block">About</a></li>
-      <li><a href="contact.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer block">Contact</a></li>
-      <li><a href="login.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer block">Login</a></li>
-      <li><a href="cart.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer block">Cart</a></li>
+    <ul id="mobile-menu"
+      class="hidden flex-col space-y-4 p-4 bg-fuchsia-900 sm:hidden absolute w-full top-full left-0 z-40">
+      <li><a href="shop.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer block">Shop</a>
+      </li>
+      <li><a href="about.html"
+          class="text-white hover:underline-offset-8 hover:underline cursor-pointer block">About</a></li>
+      <li><a href="contact.html"
+          class="text-white hover:underline-offset-8 hover:underline cursor-pointer block">Contact</a></li>
+      <li><a href="login.html"
+          class="text-white hover:underline-offset-8 hover:underline cursor-pointer block">Login</a></li>
+      <li><a href="cart.html" class="text-white hover:underline-offset-8 hover:underline cursor-pointer block">Cart</a>
+      </li>
     </ul>
   </header>
 
@@ -52,37 +62,44 @@
     <!-- Filters -->
     <div class="flex flex-wrap gap-2" id="filter-buttons">
       <button
-        class="px-4 py-2 rounded-lg bg-pink-600 text-white text-sm font-medium transition-all duration-200 hover:bg-pink-500" id="filter-clothing">
+        class="px-4 py-2 rounded-lg bg-pink-600 text-white text-sm font-medium transition-all duration-200 hover:bg-pink-500"
+        id="filter-clothing">
         Clothing
       </button>
 
       <button
-        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700" id="filter-dresses">
+        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700"
+        id="filter-dresses">
         Dresses
       </button>
 
       <button
-        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700" id="filter-beauty">
+        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700"
+        id="filter-beauty">
         Beauty
       </button>
 
       <button
-        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700" id="filter-shoes">
+        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700"
+        id="filter-shoes">
         Shoes
       </button>
 
       <button
-        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700" id="filter-accessories">
+        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700"
+        id="filter-accessories">
         Accessories
       </button>
 
       <button
-        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700" id="filter-jewelry">
+        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700"
+        id="filter-jewelry">
         Jewelry
       </button>
 
       <button
-        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700" id="filter-bags">
+        class="px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium transition-all duration-200 hover:bg-slate-700"
+        id="filter-bags">
         Bags
       </button>
     </div>
