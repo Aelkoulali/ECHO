@@ -7,11 +7,4 @@
       carousel.style.transform = `translateX(-${index * 100}%)`;
     }, 3000); // Change slide every 3 seconds  
 
-    // Menu btn 
-    const menuBtn = document.getElementById("menu-btn");
-    const mobileMenu = document.getElementById("mobile-menu");
-
-    menuBtn.addEventListener("click", () => {
-      mobileMenu.classList.toggle("hidden");
-      mobileMenu.classList.toggle("flex");
-    });
+    
