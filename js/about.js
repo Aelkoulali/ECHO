@@ -1,4 +1,4 @@
-// Caroussel
+// Carousel
     const carousel = document.getElementById('carousel');
     let index = 0;
 
