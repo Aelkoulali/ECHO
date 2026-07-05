@@ -58,7 +58,54 @@
 
 
   <!-- Main Content -->
-  
+  <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 p-4 border-b">
+
+    <!-- Search -->
+    <div class="flex gap-2 w-full lg:w-80">
+        <input
+            type="search"
+            id="search-input"
+            placeholder="Search products..."
+            class="flex-1 border rounded-lg px-4 py-2 focus:ring-2 focus:ring-pink-500 outline-none">
+        <button
+            id="search"
+            class="bg-pink-600 text-white px-5 rounded-lg hover:bg-pink-500">
+            Search
+        </button>
+    </div>
+
+    <!-- Category Buttons -->
+    <div class="flex flex-wrap gap-2">
+        <button class="filter-btn px-4 py-2 rounded-lg bg-pink-600 text-white">
+            All
+        </button>
+
+        <button class="filter-btn px-4 py-2 rounded-lg bg-slate-800 text-white">
+            Clothing
+        </button>
+
+        <button class="filter-btn px-4 py-2 rounded-lg bg-slate-800 text-white">
+            Dresses
+        </button>
+
+        <button class="filter-btn px-4 py-2 rounded-lg bg-slate-800 text-white">
+            Beauty
+        </button>
+
+        <button class="filter-btn px-4 py-2 rounded-lg bg-slate-800 text-white">
+            Shoes
+        </button>
+    </div>
+
+    <!-- Sort -->
+    <select class="border rounded-lg px-4 py-2 text-sm">
+        <option>Featured</option>
+        <option>Price: Low to High</option>
+        <option>Price: High to Low</option>
+        <option>Newest</option>
+    </select>
+
+</div>
   <!-- Main Content -->  
   <!-- Enhanced Footer -->
   <footer class="bg-fuchsia-950 text-white mt-8 py-10 px-4 sm:px-6">
