@@ -51,4 +51,12 @@ const products = [
   {id: 48, name: "Gucci necklace", price: 2250.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Necklace.webp"},
   {id: 49, name: "Gucci ring", price: 2250.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Ring.webp"},
   {id: 50, name: "Lana earrings", price: 2300.00, category: "Jewelry", image: "Images/Products/Jewelry/Lana_Earrings.webp"},
+  {id: 51, name: "Amiri sneakers", price: 2350.00, category: "Shoes", image: "Images/Products/Shoes/Amiri_Sneakers.webp"},
+  {id: 52, name: "Dolce_Gabana sneakers", price: 2400.00, category: "Shoes", image: "Images/Products/Shoes/Dolce_Gabana_Sneakers.webp"},
+  {id: 53, name: "Givenchy boots", price: 2450.00, category: "Shoes", image: "Images/Products/Shoes/Givenchy_Boots.webp"},
+  {id: 54, name: "Givenchy slide", price: 2500.00, category: "Shoes", image: "Images/Products/Shoes/Givenchy_Slide.webp"},
+  {id: 55, name: "Gucci heels", price: 2550.00, category: "Shoes", image: "Images/Products/Shoes/Gucci_Heels.webp"},
+  {id: 56, name: "Moschino heels", price: 2600.00, category: "Shoes", image: "Images/Products/Shoes/Moschino_Heels.webp"},
+  {id: 57, name: "Valentino_Garavani sneakers", price: 2650.00, category: "Shoes", image: "Images/Products/Shoes/Valentino_Garavani_Sneakers.webp"},
+  {id: 58, name: "Versace heels", price: 2700.00, category: "Shoes", image: "Images/Products/Shoes/Versace_Heels.webp"}
 ];
