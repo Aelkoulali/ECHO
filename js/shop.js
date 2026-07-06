@@ -29,4 +29,10 @@ const products = [
   {id: 26, name: "Hermès foundation", price: 1150.00, category: "Beauty", image: "Images/Products/Beauty/Hermès_foundation.webp"},
   {id: 27, name: "Balenciaga t-shirt", price: 1200.00, category: "Clothing", image: "Images/Products/Clothing/Balenciaga_T_Shirt.webp"},
   {id: 28, name: "Dolce_Gabana jacket", price: 1250.00, category: "Clothing", image: "Images/Products/Clothing/Dolce_Gabana_Jacket.webp"},
+  {id: 29, name: "Miu_Miu jeans", price: 1300.00, category: "Clothing", image: "Images/Products/Clothing/Miu_Miu_Jeans.webp"},
+  {id: 30, name: "Miu_Miu t-shirt", price: 1350.00, category: "Clothing", image: "Images/Products/Clothing/Miu_Miu_T_Shirt.webp"},
+  {id: 31, name: "Prada t-shirt", price: 1400.00, category: "Clothing", image: "Images/Products/Clothing/Prada_T_Shirt.webp"},
+  {id: 32, name: "Ralph_Lauren jacket", price: 1450.00, category: "Clothing", image: "Images/Products/Clothing/Ralph_Lauren_Jacket.webp"},
+  {id: 33, name: "Ralph_Lauren pant", price: 1500.00, category: "Clothing", image: "Images/Products/Clothing/Ralph_Lauren_Pant.webp"},
+  {id: 34, name: "Saint Laurent jeans", price: 1550.00, category: "Clothing", image: "Images/Products/Clothing/Saint_Laurent_Jeans.webp"}
 ];
