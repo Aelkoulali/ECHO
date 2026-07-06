@@ -42,5 +42,13 @@ const products = [
   {id: 39, name: "Prada dress", price: 1800.00, category: "Dresses", image: "Images/Products/Dresses/Prada_Dress.webp"},
   {id: 40, name: "Ralph_Lauren dress", price: 1850.00, category: "Dresses", image: "Images/Products/Dresses/Ralph_Lauren_Dress.webp"},
   {id: 41, name: "Saint_Laurent dress", price: 1900.00, category: "Dresses", image: "Images/Products/Dresses/Saint_Laurent_Dress.webp"},
-  {id: 42, name: "Versace dress", price: 1950.00, category: "Dresses", image: "Images/Products/Dresses/Versace_Dress.webp"}
+  {id: 42, name: "Versace dress", price: 1950.00, category: "Dresses", image: "Images/Products/Dresses/Versace_Dress.webp"},
+  {id: 43, name: "Bvlgari ring", price: 2000.00, category: "Jewelry", image: "Images/Products/Jewelry/Bvlgari_Ring.webp"},
+  {id: 44, name: "Chopard earrings", price: 2050.00, category: "Jewelry", image: "Images/Products/Jewelry/Chopard_Earrings.webp"},
+  {id: 45, name: "Givenchy necklace", price: 2100.00, category: "Jewelry", image: "Images/Products/Jewelry/Givenchy_Necklace.webp"},
+  {id: 46, name: "Gucci Bracelet", price: 2150.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Bracelet.webp"},
+  {id: 47, name: "Gucci cuffs", price: 2200.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Cuffs.webp"},
+  {id: 48, name: "Gucci necklace", price: 2250.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Necklace.webp"},
+  {id: 49, name: "Gucci ring", price: 2250.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Ring.webp"},
+  {id: 50, name: "Lana earrings", price: 2300.00, category: "Jewelry", image: "Images/Products/Jewelry/Lana_Earrings.webp"},
 ];
