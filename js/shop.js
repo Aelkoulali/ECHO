@@ -15,6 +15,6 @@ const products = [
   {id: 12, name: "Givenchy bag", price: 3500.00, category: "Bags", image: "Images/Products/Bags/Givenchy_bag.webp"},
   {id: 13, name: "Loewe bag", price: 4000.00, category: "Bags", image: "Images/Products/Bags/Loewe_bag.webp"},
   {id: 14, name: "Miu Miu bag", price: 4500.00, category: "Bags", image: "Images/Products/Bags/Miu_Miu_bag.webp"},
-  {id: 15, name: "Prada bag", price: 5000.00, category: "Bags", image: "Images/Products/Bags/Prada_bag.webp"}
+  {id: 15, name: "Prada bag", price: 5000.00, category: "Bags", image: "Images/Products/Bags/Prada_bag.webp"},
   {id: 16, name: "Saint Laurent bag", price: 5500.00, category: "Bags", image: "Images/Products/Bags/Saint_Laurent_bag.webp"}
 ];
