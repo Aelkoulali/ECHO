@@ -3,15 +3,15 @@
 const products = [
   {id: 1, name: "Céline sunglasses", price: 480.00, category: "Accessories", image: "Images/Products/Accessories/Celine_sunglasses.webp"},  
   {id: 2, name: "Dior sunglasses", price: 450.00, category: "Accessories", image: "Images/Products/Accessories/Dior_sunglasses.webp"},
-  {id: 3, name: "Dolce&Gabana belt", price: 500.00, category: "Accessories", image: "Images/Products/Accessories/Dolce&Gabana_belt.webp"},
+  {id: 3, name: "Dolce_Gabana belt", price: 500.00, category: "Accessories", image: "Images/Products/Accessories/Dolce_Gabana_belt.webp"},
   {id: 4, name: "Givenchy belt", price: 550.00, category: "Accessories", image: "Images/Products/Accessories/Givenchy_belt.webp"},
   {id: 5, name: "Givenchy scarf", price: 600.00, category: "Accessories", image: "Images/Products/Accessories/Givenchy_scarf.webp"},
-  {id: 6, name: "Miu Miu hat", price: 650.00, category: "Accessories", image: "Images/Products/Accessories/MiuMiu_hat.webp"},
+  {id: 6, name: "Miu Miu hat", price: 650.00, category: "Accessories", image: "Images/Products/Accessories/Miu_Miu_hat.webp"},
   {id: 7, name: "Prada scarf", price: 700.00, category: "Accessories", image: "Images/Products/Accessories/Prada_scarf.webp"},
   {id: 8, name: "Saint Laurent belt", price: 750.00, category: "Accessories", image: "Images/Products/Accessories/Saint_Laurent_belt.webp"},
-  {id: 9, name: "Blanciaga bag", price: 2000.00, category: "Bags", image: "Images/Products/Bags/Blanciaga_bag.webp"},
+  {id: 9, name: "Balenciaga bag", price: 2000.00, category: "Bags", image: "Images/Products/Bags/Balenciaga_bag.webp"},
   {id: 10, name: "Bvlgari bag", price: 2500.00, category: "Bags", image: "Images/Products/Bags/Bvlgari_bag.webp"},
-  {id: 11, name: "Dolce&Gabana bag", price: 3000.00, category: "Bags", image: "Images/Products/Bags/Dolce&Gabana_bag.webp"},
+  {id: 11, name: "Dolce_Gabana bag", price: 3000.00, category: "Bags", image: "Images/Products/Bags/Dolce_Gabana_bag.webp"},
   {id: 12, name: "Chloe bag", price: 3000.00, category: "Bags", image: "Images/Products/Bags/Chloe_bag.webp"},
   {id: 13, name: "Givenchy bag", price: 3500.00, category: "Bags", image: "Images/Products/Bags/Givenchy_bag.webp"},
   {id: 14, name: "Loewe bag", price: 4000.00, category: "Bags", image: "Images/Products/Bags/Loewe_bag.webp"},
@@ -26,5 +26,7 @@ const products = [
   {id: 23, name: "Guerlain lipstick", price: 1050.00, category: "Beauty", image: "Images/Products/Beauty/Guerlain_lipstick.webp"},
   {id: 24, name: "Guerlain powder", price: 1050.00, category: "Beauty", image: "Images/Products/Beauty/Guerlain_powder_blush.webp"},
   {id: 25, name: "Guerlain perfume", price: 1100.00, category: "Beauty", image: "Images/Products/Beauty/Guerlain_perfume.webp"},
-  {id: 26, name: "Hermès foundation", price: 1150.00, category: "Beauty", image: "Images/Products/Beauty/Hermès_foundation.webp"}
+  {id: 26, name: "Hermès foundation", price: 1150.00, category: "Beauty", image: "Images/Products/Beauty/Hermès_foundation.webp"},
+  {id: 27, name: "Balenciaga t-shirt", price: 1200.00, category: "Clothing", image: "Images/Products/Clothing/Balenciaga_T_Shirt.webp"},
+  {id: 28, name: "Dolce_Gabana jacket", price: 1250.00, category: "Clothing", image: "Images/Products/Clothing/Dolce_Gabana_Jacket.webp"},
 ];
