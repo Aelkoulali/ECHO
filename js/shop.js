@@ -34,5 +34,13 @@ const products = [
   {id: 31, name: "Prada t-shirt", price: 1400.00, category: "Clothing", image: "Images/Products/Clothing/Prada_T_Shirt.webp"},
   {id: 32, name: "Ralph_Lauren jacket", price: 1450.00, category: "Clothing", image: "Images/Products/Clothing/Ralph_Lauren_Jacket.webp"},
   {id: 33, name: "Ralph_Lauren pant", price: 1500.00, category: "Clothing", image: "Images/Products/Clothing/Ralph_Lauren_Pant.webp"},
-  {id: 34, name: "Saint Laurent jeans", price: 1550.00, category: "Clothing", image: "Images/Products/Clothing/Saint_Laurent_Jeans.webp"}
+  {id: 34, name: "Saint Laurent jeans", price: 1550.00, category: "Clothing", image: "Images/Products/Clothing/Saint_Laurent_Jeans.webp"},
+  {id: 35, name: "Dolce_Gabana dress", price: 1600.00, category: "Dresses", image: "Images/Products/Dresses/Dolce_Gabana_Dress.webp"},
+  {id: 36, name: "Giorgio_Armani dress", price: 1650.00, category: "Dresses", image: "Images/Products/Dresses/Giorgio_Armani_Dress.webp"},
+  {id: 37, name: "Givenchy dress", price: 1700.00, category: "Dresses", image: "Images/Products/Dresses/Givenchy_Dress.webp"},
+  {id: 38, name: "Michael_Kors dress", price: 1750.00, category: "Dresses", image: "Images/Products/Dresses/Michael_Kors_Dress.webp"},
+  {id: 39, name: "Prada dress", price: 1800.00, category: "Dresses", image: "Images/Products/Dresses/Prada_Dress.webp"},
+  {id: 40, name: "Ralph_Lauren dress", price: 1850.00, category: "Dresses", image: "Images/Products/Dresses/Ralph_Lauren_Dress.webp"},
+  {id: 41, name: "Saint_Laurent dress", price: 1900.00, category: "Dresses", image: "Images/Products/Dresses/Saint_Laurent_Dress.webp"},
+  {id: 42, name: "Versace dress", price: 1950.00, category: "Dresses", image: "Images/Products/Dresses/Versace_Dress.webp"}
 ];
