@@ -60,3 +60,4 @@ const products = [
   {id: 57, name: "Valentino Garavani sneakers", price: 2650.00, category: "Shoes", image: "Images/Products/Shoes/Valentino_Garavani_Sneakers.webp", Newest: true},
   {id: 58, name: "Versace heels", price: 2700.00, category: "Shoes", image: "Images/Products/Shoes/Versace_Heels.webp", Newest: false}
 ];
+
