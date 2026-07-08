@@ -46,7 +46,7 @@ const products = [
   {id: 43, name: "Bvlgari ring", price: 2000.00, category: "Jewelry", image: "Images/Products/Jewelry/Bvlgari_Ring.webp", Newest: true},
   {id: 44, name: "Chopard earrings", price: 2050.00, category: "Jewelry", image: "Images/Products/Jewelry/Chopard_Earrings.webp", Newest: false},
   {id: 45, name: "Givenchy necklace", price: 2100.00, category: "Jewelry", image: "Images/Products/Jewelry/Givenchy_Necklace.webp", Newest: true},
-  {id: 46, name: "Gucci Bracelet", price: 1750.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Bracelet.webp", Newest: false},
+  {id: 46, name: "Gucci Bracelet", price: 560.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Bracelet.webp", Newest: false},
   {id: 47, name: "Gucci cuffs", price: 1500.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Cuffs.webp", Newest: true},
   {id: 48, name: "Gucci necklace", price: 2250.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Necklace.webp", Newest: false},
   {id: 49, name: "Gucci ring", price: 2250.00, category: "Jewelry", image: "Images/Products/Jewelry/Gucci_Ring.webp", Newest: true},
