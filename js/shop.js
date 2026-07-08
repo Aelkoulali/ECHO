@@ -1,7 +1,7 @@
 
 // Product Data
 const products = [
-  {id: 1, name: "Céline sunglasses", price: 480.00, category: "Accessories", image: "Images/Products/Accessories/Celine_sunglasses.webp", Newest: true},  
+  {id: 1, name: "Céline sunglasses", price: 500.00, category: "Accessories", image: "Images/Products/Accessories/Celine_sunglasses.webp", Newest: true},  
   {id: 2, name: "Dior sunglasses", price: 450.00, category: "Accessories", image: "Images/Products/Accessories/Dior_sunglasses.webp", Newest: false},
   {id: 3, name: "Dolce Gabana belt", price: 500.00, category: "Accessories", image: "Images/Products/Accessories/Dolce_Gabana_belt.webp", Newest: true},
   {id: 4, name: "Givenchy belt", price: 550.00, category: "Accessories", image: "Images/Products/Accessories/Givenchy_belt.webp", Newest: true},
