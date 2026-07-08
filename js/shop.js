@@ -18,7 +18,7 @@ const products = [
   {id: 15, name: "Miu Miu bag", price: 4500.00, category: "Bags", image: "Images/Products/Bags/Miu_Miu_bag.webp", Newest: true},
   {id: 16, name: "Prada bag", price: 5000.00, category: "Bags", image: "Images/Products/Bags/Prada_bag.webp", Newest: true},
   {id: 17, name: "Saint Laurent bag", price: 5500.00, category: "Bags", image: "Images/Products/Bags/Saint_Laurent_bag.webp", Newest: true},
-  {id: 18, name: "Balenciaga le dix", price: 250.00, category: "Beauty", image: "Images/Products/Beauty/Balenciaga_Le_Dix.webp", Newest: true},
+  {id: 18, name: "Balenciaga le dix", price: 320.00, category: "Beauty", image: "Images/Products/Beauty/Balenciaga_Le_Dix.webp", Newest: true},
   {id: 19, name: "Creed perfume", price: 150.00, category: "Beauty", image: "Images/Products/Beauty/Creed_perfume.webp", Newest: false},
   {id: 20, name: "Dior lip glow", price: 100.00, category: "Beauty", image: "Images/Products/Beauty/Dior_lip_glow.webp", Newest: true},
   {id: 21, name: "Dior mascara", price: 150.00, category: "Beauty", image: "Images/Products/Beauty/Dior_mascara.webp", Newest: false},
