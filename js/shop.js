@@ -61,3 +61,34 @@ const products = [
   {id: 58, name: "Versace heels", price: 2700.00, category: "Shoes", image: "Images/Products/Shoes/Versace_Heels.webp", Newest: false}
 ];
 
+// Create one product card
+const productGrid = document.getElementById("product-grid");
+
+function createCard(product) {
+  return `
+    <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+
+      <img
+        src="${product.image}"
+        alt="${product.name}"
+        class="w-full h-56 object-cover">
+
+      <div class="p-4">
+
+        <h2 class="text-lg font-bold">
+          ${product.name}
+        </h2>
+
+        <p class="text-gray-500">
+          ${product.category}
+        </p>
+
+        <p class="text-pink-600 font-bold mt-2">
+          $${product.price}
+        </p>
+
+      </div>
+
+    </div>
+  `;
+}
