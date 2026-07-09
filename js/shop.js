@@ -104,3 +104,5 @@ function createCard(product) {
 function displayProducts(products) {
   productGrid.innerHTML = products.map(createCard).join("");
 }
+
+displayProducts(products);
