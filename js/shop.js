@@ -88,10 +88,9 @@ function createCard(product) {
         </p>
 
         <div class="mt-auto pt-4">
-        <button
-            class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
-            Buy
-        </button>
+          <button class="bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700">
+            Add to Cart
+          </button>
         </div>
 
       </div>
