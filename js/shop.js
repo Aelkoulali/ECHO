@@ -66,32 +66,32 @@ const productGrid = document.getElementById("product-grid");
 
 function createCard(product) {
   return `
-    <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+      <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden w-56 mx-auto">
 
-      <img
-        src="${product.image}"
-        alt="${product.name}"
-        class="w-full h-12 object-cover">
+      <div class="h-36 flex items-center justify-center">
+        <img
+          src="${product.image}"
+          alt="${product.name}"
+          class="max-h-28 max-w-full object-contain">
+      </div>
 
-      <div class="p-4">
+      <div class="p-2 text-center">
 
-        <h2 class="text-lg font-bold">
+        <h2 class="text-sm font-bold">
           ${product.name}
         </h2>
 
-        <p class="text-gray-500">
+        <p class="text-xs text-gray-500">
           ${product.category}
         </p>
 
-        <p class="text-pink-600 font-bold mt-2">
+        <p class="text-sm text-pink-600 font-bold mt-1">
           $${product.price}
         </p>
 
-        <div class="mt-auto pt-4">
-          <button class="bg-pink-600 text-white px-4 py-2 rounded hover:bg-pink-700">
-            Add to Cart
-          </button>
-        </div>
+        <button class="mt-2 w-full bg-pink-600 text-white py-1 rounded text-xs hover:bg-pink-700">
+          Add to Cart
+        </button>
 
       </div>
 
