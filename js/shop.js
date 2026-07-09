@@ -71,7 +71,7 @@ function createCard(product) {
       <img
         src="${product.image}"
         alt="${product.name}"
-        class="w-full h-56 object-cover">
+        class="w-full h-10 object-cover">
 
       <div class="p-4">
 
@@ -106,3 +106,4 @@ function displayProducts(products) {
 }
 
 displayProducts(products);
+
