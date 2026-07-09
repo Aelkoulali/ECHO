@@ -101,3 +101,6 @@ function createCard(product) {
 }
 
 // Display products in the grid
+function displayProducts(products) {
+  productGrid.innerHTML = products.map(createCard).join("");
+}
