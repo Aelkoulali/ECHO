@@ -71,7 +71,7 @@ function createCard(product) {
       <img
         src="${product.image}"
         alt="${product.name}"
-        class="w-full h-10 object-cover">
+        class="w-full h-12 object-cover">
 
       <div class="p-4">
 
