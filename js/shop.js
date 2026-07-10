@@ -67,8 +67,11 @@ const productGrid = document.getElementById("product-grid");
 function createCard(product) {
   return `
       <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden w-56 mx-auto">
-
+      <span class="text-xs text-gray-500 hover:text-pink-600 cursor-pointer">
+          Add to wishlist
+        </span>
       <div class="h-36 flex items-center justify-center">
+      
         <img
           src="${product.image}"
           alt="${product.name}"
@@ -90,7 +93,7 @@ function createCard(product) {
         </p>
         <div class="w-full h-10 mt-2">
 
-        <button class="w-full h-full bg-pink-600 text-white py-1 rounded text-xs hover:bg-pink-800">
+        <button class="w-full h-full bg-pink-600 text-white py-1 rounded text-xs hover:bg-pink-900 cursor-pointer">
           Add to Cart
         </button>
         </div>
