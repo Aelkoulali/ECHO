@@ -88,10 +88,12 @@ function createCard(product) {
         <p class="text-sm text-pink-600 font-bold mt-1">
           $${product.price}
         </p>
+        <div class="w-full  mt-2">
 
-        <button class="mt-2 w-full bg-pink-600 text-white py-1 rounded text-xs hover:bg-pink-700">
+        <button class="w-full h-full bg-pink-600 text-white py-1 rounded text-xs hover:bg-pink-800">
           Add to Cart
         </button>
+        </div>
 
       </div>
 
