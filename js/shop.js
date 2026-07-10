@@ -82,11 +82,7 @@ function createCard(product) {
 
         <h2 class="text-sm font-bold">
           ${product.name}
-        </h2>
-
-        <p class="text-xs text-gray-500">
-          ${product.category}
-        </p>
+        </h2>        
 
         <p class="text-sm text-pink-600 font-bold mt-1">
           $${product.price}
