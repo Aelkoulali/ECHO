@@ -93,7 +93,7 @@ function createCard(product) {
 
         <div class="w-full h-10 mt-2">
 
-        <button class="w-full h-full bg-pink-600 text-white py-1 rounded text-xs hover:bg-pink-900">
+        <button class="w-full h-full bg-pink-600 text-white py-1 rounded text-xs font-bold hover:bg-pink-900">
           Add to Cart
         </button>
 
