@@ -68,7 +68,7 @@ function createCard(product) {
   return `
       <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden w-56 mx-auto">
       <div class="flex justify-end p-10">
-        <button class="text-black hover:text-red-500 transition duration-300 ease-in-out">
+        <button class="text-black hover:text-red-700 transition duration-300 ease-in-out">
             <i class="fa-regular fa-heart fa-xl"></i>
         </button>
     </div>
