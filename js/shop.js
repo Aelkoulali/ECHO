@@ -91,9 +91,9 @@ function createCard(product) {
           $${product.price}
         </p>
         
-        <button class="bg-pink-600 text-white px-4 py-2 mb-2 rounded hover:bg-blue-700 transition duration-300 ease-in-out">
-          Add to Cart
-        </button>
+        <button class="bg-pink-600 text-white text-xs font-bold  mb-2 rounded-md px-5 py-2 hover:bg-pink-500">
+        Add to Cart
+      </button>
 
       </div>
 
