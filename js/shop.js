@@ -73,12 +73,12 @@ function createCard(product) {
         </button>
     </div>
 
-      <div class="h-36 flex items-center justify-center">
+      <div class="h-24 flex items-center justify-center">
       
         <img
           src="${product.image}"
           alt="${product.name}"
-          class="max-h-28 max-w-full object-contain">
+          class="max-h-20 max-w-full object-contain">
       </div>
 
       <div class="p-2 text-center">
