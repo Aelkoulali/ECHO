@@ -66,19 +66,19 @@ const productGrid = document.getElementById("product-grid");
 
 function createCard(product) {
   return `
-      <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden w-56 mx-auto">
-      <div class="flex justify-end p-10">
+      <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden w-44 mx-auto">
+      <div class="flex justify-end p-3">
         <button class="text-black hover:text-red-700 transition duration-300 ease-in-out">
-            <i class="fa-regular fa-heart fa-xl"></i>
+            <i class="fa-regular fa-heart fa-lg"></i>
         </button>
     </div>
 
-      <div class="h-24 flex items-center justify-center">
+      <div class="h-12 flex items-center justify-center">
       
         <img
           src="${product.image}"
           alt="${product.name}"
-          class="max-h-20 max-w-full object-contain">
+          class="max-h-8 max-w-full object-contain">
       </div>
 
       <div class="p-2 text-center">
