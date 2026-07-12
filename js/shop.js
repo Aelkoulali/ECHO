@@ -67,14 +67,14 @@ const productGrid = document.getElementById("product-grid");
 function createCard(product) {
   return `
     <div class="w-fit"> 
-      <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden w-48 mx-auto">
+      <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden w-full mx-auto hover:scale-105 transition duration-300 ease-in-out">
       <div class="flex justify-end p-3">
         <button class="text-black hover:text-red-700 transition duration-300 ease-in-out">
             <i class="fa-regular fa-heart fa-md"></i>
         </button>
     </div>
 
-      <div class="h-40 overflow-hidden flex items-center justify-center">
+      <div class="overflow-hidden flex items-center justify-center">
       
         <img
           src="${product.image}"
