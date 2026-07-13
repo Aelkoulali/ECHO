@@ -35,6 +35,7 @@ const products = [
   {id: 32, name: "Ralph Lauren jacket", price: 550.00, category: "Clothing", image: "Images/Products/Clothing/Ralph_Lauren_Jacket.webp", Newest: true},
   {id: 33, name: "Ralph Lauren pant", price: 1500.00, category: "Clothing", image: "Images/Products/Clothing/Ralph_Lauren_Pant.webp", Newest: false},
   {id: 34, name: "Saint Laurent jeans", price: 1150.00, category: "Clothing", image: "Images/Products/Clothing/Saint_Laurent_Jeans.webp", Newest: true},
+  {id: 35, name: "Miu Miu Jacket", price: 2650.00, category: "Clothing", image: "Images/Products/Clothing/Miu_Miu_Jacket.webp", Newest: false},
   {id: 35, name: "Dolce Gabana dress", price: 2600.00, category: "Dresses", image: "Images/Products/Dresses/Dolce_Gabana_Dress.webp", Newest: false},
   {id: 36, name: "Giorgio Armani dress", price: 3650.00, category: "Dresses", image: "Images/Products/Dresses/Giorgio_Armani_Dress.webp", Newest: true},
   {id: 37, name: "Givenchy dress", price: 3700.00, category: "Dresses", image: "Images/Products/Dresses/Givenchy_Dress.webp", Newest: false},
@@ -58,7 +59,8 @@ const products = [
   {id: 55, name: "Gucci heels", price: 2550.00, category: "Shoes", image: "Images/Products/Shoes/Gucci_Heels.webp", Newest: true},
   {id: 56, name: "Moschino heels", price: 2600.00, category: "Shoes", image: "Images/Products/Shoes/Moschino_Heels.webp", Newest: false},
   {id: 57, name: "Valentino Garavani sneakers", price: 2650.00, category: "Shoes", image: "Images/Products/Shoes/Valentino_Garavani_Sneakers.webp", Newest: true},
-  {id: 58, name: "Versace heels", price: 2700.00, category: "Shoes", image: "Images/Products/Shoes/Versace_Heels.webp", Newest: false}
+  {id: 58, name: "Versace heels", price: 2700.00, category: "Shoes", image: "Images/Products/Shoes/Versace_Heels.webp", Newest: false},
+  {id: 59, name: "Gucci sneakers", price: 1750.00, category: "Shoes", image: "Images/Products/Shoes/Gucci_Sneakers.webp", Newest: true},
 ];
 
 // Create one product card
