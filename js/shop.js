@@ -119,4 +119,14 @@ function filterProducts(category) {
     return;
   } 
 
+  const filteredProducts = products.filter(product => product.category === category);
+  displayProducts(filteredProducts);
+}
+
+document.querySelectorAll(".filter-btn").forEach(button => {
+  button.addEventListener("click", () => {
+    filterProducts(button.dataset.category);
+  });
+});
+
   
