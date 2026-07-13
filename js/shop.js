@@ -110,3 +110,11 @@ function displayProducts(products) {
 
 displayProducts(products);
 
+
+// Category Filters
+
+
+// Search
+
+
+// Sort
