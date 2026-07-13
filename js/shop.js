@@ -113,8 +113,10 @@ displayProducts(products);
 
 // Category Filters
 
+function filterProducts(category) {
+  if (category === "All") {
+    displayProducts(products);
+    return;
+  } 
 
-// Search
-
-
-// Sort
+  
