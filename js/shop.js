@@ -114,7 +114,7 @@ displayProducts(products);
 // Category Filters
 
 function filterProducts(category) {
-  if (category === "All") {
+  if (category === "all") {
     displayProducts(products);
     return;
   } 
