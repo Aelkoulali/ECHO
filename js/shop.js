@@ -50,15 +50,15 @@ const products = [
   {id: 48, name: "Gucci necklace", price: 2250.00, category: "jewelry", image: "Images/Products/Jewelry/Gucci_Necklace.webp", Newest: false},
   {id: 49, name: "Gucci ring", price: 2250.00, category: "jewelry", image: "Images/Products/Jewelry/Gucci_Ring.webp", Newest: true},
   {id: 50, name: "Lana earrings", price: 1300.00, category: "jewelry", image: "Images/Products/Jewelry/Lana_Earrings.webp", Newest: false},
-  {id: 51, name: "Amiri sneakers", price: 1350.00, category: "Shoes", image: "Images/Products/Shoes/Amiri_Sneakers.webp", Newest: true},
-  {id: 52, name: "Dolce Gabana sneakers", price: 2400.00, category: "Shoes", image: "Images/Products/Shoes/Dolce_Gabana_Sneakers.webp", Newest: false},
-  {id: 53, name: "Givenchy boots", price: 2450.00, category: "Shoes", image: "Images/Products/Shoes/Givenchy_Boots.webp", Newest: true},
-  {id: 54, name: "Givenchy slide", price: 2500.00, category: "Shoes", image: "Images/Products/Shoes/Givenchy_Slide.webp", Newest: false},
-  {id: 55, name: "Gucci heels", price: 2550.00, category: "Shoes", image: "Images/Products/Shoes/Gucci_Heels.webp", Newest: true},
-  {id: 56, name: "Moschino heels", price: 2600.00, category: "Shoes", image: "Images/Products/Shoes/Moschino_Heels.webp", Newest: false},
-  {id: 57, name: "Valentino Garavani sneakers", price: 2650.00, category: "Shoes", image: "Images/Products/Shoes/Valentino_Garavani_Sneakers.webp", Newest: true},
-  {id: 58, name: "Versace heels", price: 2700.00, category: "Shoes", image: "Images/Products/Shoes/Versace_Heels.webp", Newest: false},
-  {id: 59, name: "Gucci sneakers", price: 1750.00, category: "Shoes", image: "Images/Products/Shoes/Gucci_Sneakers.webp", Newest: true}
+  {id: 51, name: "Amiri sneakers", price: 1350.00, category: "shoes", image: "Images/Products/Shoes/Amiri_Sneakers.webp", Newest: true},
+  {id: 52, name: "Dolce Gabana sneakers", price: 2400.00, category: "shoes", image: "Images/Products/Shoes/Dolce_Gabana_Sneakers.webp", Newest: false},
+  {id: 53, name: "Givenchy boots", price: 2450.00, category: "shoes", image: "Images/Products/Shoes/Givenchy_Boots.webp", Newest: true},
+  {id: 54, name: "Givenchy slide", price: 2500.00, category: "shoes", image: "Images/Products/Shoes/Givenchy_Slide.webp", Newest: false},
+  {id: 55, name: "Gucci heels", price: 2550.00, category: "shoes", image: "Images/Products/Shoes/Gucci_Heels.webp", Newest: true},
+  {id: 56, name: "Moschino heels", price: 2600.00, category: "shoes", image: "Images/Products/Shoes/Moschino_Heels.webp", Newest: false},
+  {id: 57, name: "Valentino Garavani sneakers", price: 2650.00, category: "shoes", image: "Images/Products/Shoes/Valentino_Garavani_Sneakers.webp", Newest: true},
+  {id: 58, name: "Versace heels", price: 2700.00, category: "shoes", image: "Images/Products/Shoes/Versace_Heels.webp", Newest: false},
+  {id: 59, name: "Gucci sneakers", price: 1750.00, category: "shoes", image: "Images/Products/Shoes/Gucci_Sneakers.webp", Newest: true}
 ];
 
 // Create one product card
@@ -129,6 +129,5 @@ document.querySelectorAll(".filter-btn").forEach(button => {
   });
 });
 
-// Sort
-
+// Search 
   
