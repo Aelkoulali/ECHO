@@ -56,7 +56,7 @@ const products = [
   {id: 54, name: "Givenchy slide", price: 2500.00, category: "shoes", image: "Images/Products/Shoes/Givenchy_Slide.webp", Newest: false},
   {id: 55, name: "Gucci heels", price: 2550.00, category: "shoes", image: "Images/Products/Shoes/Gucci_Heels.webp", Newest: true},
   {id: 56, name: "Moschino heels", price: 2600.00, category: "shoes", image: "Images/Products/Shoes/Moschino_Heels.webp", Newest: false},
-  {id: 57, name: "Valentino Garavani sneakers", price: 2650.00, category: "shoes", image: "Images/Products/Shoes/Valentino_Garavani_Sneakers.webp", Newest: true},
+  {id: 57, name: "Valentino Garavani sneakers", price: 2650.00, category: "shoes", image: "Images/Products/Shoes/Valentino_Garavani_Sneakers.png", Newest: true},
   {id: 58, name: "Versace heels", price: 2700.00, category: "shoes", image: "Images/Products/Shoes/Versace_Heels.webp", Newest: false},
   {id: 59, name: "Gucci sneakers", price: 1750.00, category: "shoes", image: "Images/Products/Shoes/Gucci_Sneakers.webp", Newest: true}
 ];
