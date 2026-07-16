@@ -28,7 +28,7 @@ const products = [
   {id: 25, name: "Guerlain perfume", price: 180.00, category: "beauty", image: "Images/Products/Beauty/Guerlain_perfume.webp", Newest: false},
   {id: 26, name: "Hermès foundation", price: 95.00, category: "beauty", image: "Images/Products/Beauty/Hermès_foundation.webp", Newest: true},
   {id: 27, name: "Balenciaga t-shirt", price: 150.00, category: "clothing", image: "Images/Products/Clothing/Balenciaga_T_Shirt.webp", Newest: true},
-  {id: 28, name: "Dolce_Gabana jacket", price: 1250.00, category: "clothing", image: "Images/Products/Clothing/Dolce_Gabana_Jacket.webp", Newest: false},
+  {id: 28, name: "Dolce Gabana jacket", price: 1250.00, category: "clothing", image: "Images/Products/Clothing/Dolce_Gabana_Jacket.webp", Newest: false},
   {id: 29, name: "Miu Miu jeans", price: 1000.00, category: "clothing", image: "Images/Products/Clothing/Miu_Miu_Jeans.webp", Newest: true},
   {id: 30, name: "Miu Miu t-shirt", price: 350.00, category: "clothing", image: "Images/Products/Clothing/Miu_Miu_T_Shirt.webp", Newest: false},
   {id: 31, name: "Prada t-shirt", price: 1400.00, category: "clothing", image: "Images/Products/Clothing/Prada_T_Shirt.webp", Newest: true},
