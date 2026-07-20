@@ -11,9 +11,6 @@ A responsive e-commerce product catalog built with HTML, Tailwind CSS, and JavaS
 - Product sorting (e.g., price low→high / high→low — add your options)
 - Responsive product grid
 
-## How to Run
-Open `index.html` in your browser.
-
 ## Pages Included
 - `index.html` (Home)
 - `about.html` (About)
@@ -21,3 +18,6 @@ Open `index.html` in your browser.
 - `carts.html` (Cart)
 - `login.html` (Login)
 - `contact.html` (Contact)
+- 
+## How to Run
+Open `index.html` in your browser.
