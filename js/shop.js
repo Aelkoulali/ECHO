@@ -133,3 +133,17 @@ document.querySelectorAll(".filter-btn").forEach(button => {
 
 const searchInput = document.getElementById("search-input");
 const searchBtn = document.getElementById("search");
+
+searchBtn.addEventListener("click", () => {
+  const searchTerm = searchInput.value.toLowerCase();
+  const filteredProducts = products.filter(product => product.name.toLowerCase().includes(searchTerm));
+  displayProducts(filteredProducts);
+});
+
+searchInput.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    const searchTerm = searchInput.value.toLowerCase();
+    const filteredProducts = products.filter(product => product.name.toLowerCase().includes(searchTerm));
+    displayProducts(filteredProducts);
+  }
+});
