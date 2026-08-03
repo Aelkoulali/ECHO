@@ -130,4 +130,6 @@ document.querySelectorAll(".filter-btn").forEach(button => {
 });
 
 // Search 
-  
+
+const searchInput = document.getElementById("search-input");
+const searchBtn = document.getElementById("search");
