@@ -148,6 +148,24 @@ searchInput.addEventListener("keypress", (event) => {
   }
 });
 
-// Sort (Price: low to high, Newest)
+// Sort (Price: low to high, low to high and Newest)
 
+const sortSelect = document.getElementById("sort-select");
+sortSelect.addEventListener("change", () => {
+  const sortValue = sortSelect.value;
+  let sortedProducts = [...products];
 
+  switch (sortValue) {
+    case "price-low":
+      sortedProducts.sort((a, b) => a.price - b.price);
+      break;
+    case "price-high":
+      sortedProducts.sort((a, b) => b.price - a.price);
+      break;
+    case "newest":
+      sortedProducts.sort((a, b) => b.Newest - a.Newest);
+      break;
+  }
+
+  displayProducts(sortedProducts);
+});
