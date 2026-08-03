@@ -148,5 +148,5 @@ searchInput.addEventListener("keypress", (event) => {
   }
 });
 
-// Sort (Price, Newest)
+// Sort (Price: low to high, Newest)
 
