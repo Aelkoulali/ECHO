@@ -156,10 +156,10 @@ sortSelect.addEventListener("change", () => {
   let sortedProducts = [...products];
 
   switch (sortValue) {
-    case "price-low":
+    case "price-low-high":
       sortedProducts.sort((a, b) => a.price - b.price);
       break;
-    case "price-high":
+    case "price-high-low":
       sortedProducts.sort((a, b) => b.price - a.price);
       break;
     case "newest":
