@@ -150,3 +150,4 @@ searchInput.addEventListener("keypress", (event) => {
 
 // Sort (Price: low to high, Newest)
 
+
