@@ -147,3 +147,5 @@ searchInput.addEventListener("keypress", (event) => {
     displayProducts(filteredProducts);
   }
 });
+
+// Sort (Price, Newest)
