@@ -13,3 +13,9 @@ function formatCurrency(amount) {
 
 function updateCart() {
     let totalQuantity =0;
+    let subtotal = 0;
+
+
+
+
+}
