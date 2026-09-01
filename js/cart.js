@@ -1,0 +1,1 @@
+const cartItems = document.querySelectorAll('.cart-item');
