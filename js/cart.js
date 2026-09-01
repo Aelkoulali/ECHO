@@ -1,5 +1,4 @@
-
-const cartItems = document.querySelectorAll('.cart-item');
+// Declare variables
 const itemCountElement = document.getElementById('item-count');
 const subtotalElement = document.getElementById('subtotal');
 const grandTotalElement = document.getElementById('grand-total');
