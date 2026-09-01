@@ -16,6 +16,6 @@ function updateCart() {
     let subtotal = 0;
 
 
-
+updateCart(); 
 
 }
