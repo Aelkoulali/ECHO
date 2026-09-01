@@ -17,5 +17,4 @@ function updateCart() {
 
 
 updateCart(); 
-
 }
