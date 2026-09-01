@@ -10,3 +10,6 @@ function formatCurrency(amount) {
 }
 
 // Function to update the item count and totals
+
+function updateCart() {
+    let totalQuantity =0;
