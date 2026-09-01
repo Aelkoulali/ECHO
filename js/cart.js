@@ -5,5 +5,8 @@ const subtotalElement = document.getElementById('subtotal');
 const grandTotalElement = document.getElementById('grand-total');
 
 // Function Format Currency 
+function formatCurrency(amount) {
+  return '$' + amount.toFixed(2);
+}
 
 // Function to update the item count and totals
