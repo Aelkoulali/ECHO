@@ -48,4 +48,4 @@ function updateCart() {
 
 
 updateCart(); 
-}
+
