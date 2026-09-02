@@ -1,5 +1,5 @@
 // Declare variables
-const cartItem = document.querySelector('.cart-item');
+const cartItems = document.querySelector('.cart-item');
 const itemCountElement = document.getElementById('item-count');
 const subtotalElement = document.getElementById('subtotal');
 const grandTotalElement = document.getElementById('grand-total');
@@ -30,6 +30,21 @@ function updateCart() {
         quantity = 1;
         quantityInput.value = 1;
       }
+
+      const itemTotal = product.price * quantity;
+
+      totalQuantity += quantity;
+      subtotal += itemTotal;
+
+      itemTotalElement.textContent = formatCurrency(itemTotal);
+    });
+
+    itemCountElement.textContent =
+      `${totalQuantity} ${totalQuantity === 1 ? "Item" : "Items"}`;
+
+    subtotalElement.textContent = formatCurrency(subtotal);
+    grandTotalElement.textContent = formatCurrency(subtotal);
+  }
 
 
 updateCart(); 
