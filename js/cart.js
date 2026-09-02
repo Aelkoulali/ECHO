@@ -46,6 +46,30 @@ function updateCart() {
     grandTotalElement.textContent = formatCurrency(subtotal);
   }
 
+  cartItems.forEach((cartItem) => {
+    const decreaseButton = cartItem.querySelector(".decrease-quantity");
+    const increaseButton = cartItem.querySelector(".increase-quantity");
+    const quantityInput = cartItem.querySelector(".quantity-input");
+
+    increaseButton.addEventListener("click", () => {
+      quantityInput.value = parseInt(quantityInput.value, 10) + 1;
+      updateCart();
+    });
+
+    decreaseButton.addEventListener("click", () => {
+      const currentQuantity = parseInt(quantityInput.value, 10);
+
+      if (currentQuantity > 1) {
+        quantityInput.value = currentQuantity - 1;
+        updateCart();
+      }
+    });
+
+    quantityInput.addEventListener("input", updateCart);
+    quantityInput.addEventListener("change", updateCart);
+  });
+
+
 
 updateCart(); 
 
