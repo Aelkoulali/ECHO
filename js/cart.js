@@ -69,7 +69,5 @@ function updateCart() {
     quantityInput.addEventListener("change", updateCart);
   });
 
-
-
-updateCart(); 
+  updateCart(); 
 
