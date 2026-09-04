@@ -65,4 +65,8 @@ cartItems.forEach((cartItem) => {
   quantityInput.addEventListener("change", updateCart);
 });
 
+// Update total when shipping changes
+shippingOption.addEventListener("change", updateCart);
+
+// Initial calculation
 updateCart();
