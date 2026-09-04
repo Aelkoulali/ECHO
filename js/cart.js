@@ -46,9 +46,7 @@ function updateCart() {
   }
 
   const grandTotal = subtotal + shippingCost;
-  const itemText = `${totalQuantity} ${
-    totalQuantity === 1 ? "Item" : "Items"
-  }`;
+  const itemText = `${totalQuantity} ${totalQuantity === 1 ? "Item" : "Items"}`;
 
   itemCountElement.textContent = itemText;
   headerCountElement.textContent = itemText;
