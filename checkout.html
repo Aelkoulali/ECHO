@@ -155,8 +155,48 @@
               <span>Cash on Delivery</span>
             </label>
           </div>
+           <!-- Demo card fields -->
+          <div id="card-fields" class="mt-5 space-y-4">
+            <div>
+              <label for="card-number" class="block mb-2 font-medium">
+                Card Number
+              </label>
+              <input id="card-number" type="text"
+                class="w-full border border-gray-300 rounded-lg p-3"
+                placeholder="1234 5678 9012 3456">
+            </div>
 
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label for="expiry" class="block mb-2 font-medium">
+                  Expiry Date
+                </label>
+                <input id="expiry" type="text"
+                  class="w-full border border-gray-300 rounded-lg p-3"
+                  placeholder="MM/YY">
+              </div>
 
+              <div>
+                <label for="cvv" class="block mb-2 font-medium">
+                  CVV
+                </label>
+                <input id="cvv" type="text"
+                  class="w-full border border-gray-300 rounded-lg p-3"
+                  placeholder="123">
+              </div>
+            </div>
+          </div>
+
+          <button type="submit"
+            class="w-full mt-8 bg-indigo-600 hover:bg-indigo-700
+                   text-white font-semibold rounded-lg py-3">
+            Place Order
+          </button>
+
+        </form>
+      </section>
+  
+          
   <!-- Enhanced Footer -->
   <footer class="bg-fuchsia-950 text-white mt-8 py-10 px-4 sm:px-6">
 
