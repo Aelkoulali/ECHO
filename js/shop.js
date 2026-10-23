@@ -92,7 +92,7 @@ function createCard(product) {
           $${product.price}
         </p>
         
-        <button class="bg-pink-600 text-white text-xs font-bold  mb-2 rounded-md px-5 py-2 hover:bg-pink-500">
+        <button class="bg-pink-600 rounded-full text-white text-xs font-bold  mb-2  px-5 py-2 hover:bg-pink-500">
         Add to Cart
       </button>
 
